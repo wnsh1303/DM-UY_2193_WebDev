@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Simple Navbar | Inline-Block</title>
+
+    <style type="text/CSS">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      ul {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: rgb(237, 136, 100);
+
+        /*font-size: 0;*/
+      }
+
+      li {
+        display: inline-block;
+        font-size: 1rem;
+        width: 200px;
+      }
+
+      /* decendant selector - looks for a pattern of elements on the page*/
+      /* this is looking for only the anchor tags inside if a li*/
+      li a {
+        /* making an inline element display block will make it fill the space of the parent element */
+        display: block;
+        text-align: center;
+        /* make it big and chuncky like a button */
+        width: 100px;
+        padding: 10px;
+        padding-top: 50px;
+        /* Remove all of default link styling */
+        color: chartreuse;
+        text-decoration: none;
+      }
+
+      /* highlight the active page in the menu */
+      .active {
+        background-color: cornflowerblue;
+      }
+
+      /* pseudo class selector */
+      li a:hover {
+        background-color: cyan;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li>
+            <a
+              class="active"
+              href="#"
+              >Link 2</a
+            >
+          </li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

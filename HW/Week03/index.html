@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Scrambled Eggs</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background: #fefefe;
+        }
+
+        header {
+            border-bottom: 2px solid #c8a96e;
+            padding-bottom: 10px;
+        }
+
+        header h1 {
+            color: #5a3e1b;
+            margin-bottom: 0;
+        }
+
+        header p {
+            color: #777;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .instructions {
+            grid-column: 1;
+        }
+
+        aside {
+            grid-column: 2;
+            background: #fdf6e3;
+            padding: 15px;
+            border-radius: 6px;
+            align-self: start;
+        }
+
+        aside h2 {
+            font-size: 1.1em;
+            color: #5a3e1b;
+            margin-top: 0;
+        }
+
+        aside ul {
+            padding-left: 18px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        h2 {
+            color: #5a3e1b;
+        }
+
+        footer {
+            border-top: 1px solid #ddd;
+            margin-top: 30px;
+            padding-top: 10px;
+            text-align: center;
+            font-size: 0.85em;
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Soft Scrambled Eggs</h1>
+        <p>A light, creamy breakfast side dish</p>
+    </header>
+
+    <!-- MAIN CONTENT: 2-column layout (instructions | sidebar) -->
+    <main>
+        <!-- LEFT COLUMN — photo + instructions -->
+        <section class="instructions">
+            <figure>
+                <img src="scrambled_egg.jpg" alt="Soft Scrambled Eggs">
+            </figure>
+
+            <h2>Instructions</h2>
+            <ol>
+                <li>Crack 3 eggs into a bowl, add 1/2 cup milk.</li>
+                <li>Add 1/3 tbsp sugar and 1/3 tbsp salt. Whisk well.</li>
+                <li>Melt 2 tbsp butter in a pan over medium heat.</li>
+                <li>Pour in egg mixture; gently push from edges to center.</li>
+                <li>Remove from heat while still slightly moist. Top with black pepper.</li>
+            </ol>
+        </section>
+
+        <!-- RIGHT COLUMN — sidebar with ingredients -->
+        <aside>
+            <h2>Ingredients</h2>
+            <ul>
+                <li>3 large eggs</li>
+                <li>1/2 cup milk</li>
+                <li>2 tbsp butter</li>
+                <li>1/3 tbsp sugar</li>
+                <li>1/3 tbsp salt</li>
+                <li>Black pepper</li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>2026 My Recipe Site</p>
+    </footer>
+
+</body>
+
+</html>
