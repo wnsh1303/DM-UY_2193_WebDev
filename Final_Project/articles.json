@@ -1,0 +1,243 @@
+{
+  "featured": {
+    "title": "Dow closes wild session up 200 points as oil reverses lower and Trump signals Iran war near an end",
+    "description": "The S&P 500 made a comeback from earlier losses on Monday after President Donald Trump said the war against Iran could be reaching its end.",
+    "image": "article_picture.webp",
+    "link": "article.html",
+    "source": "CNBC",
+    "date": "9 March 2026",
+    "category": "stocks"
+  },
+  "stocks": [
+    {
+      "title": "Stock Article 1",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+1",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Stock Article 2",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+2",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Stock Article 3",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+3",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Stock Article 4",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+4",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Stock Article 5",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+5",
+      "source": "Bloomberg",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Stock Article 6",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+6",
+      "source": "Reuters",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Stock Article 7",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+7",
+      "source": "CNBC",
+      "date": "11 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Stock Article 8",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+8",
+      "source": "Financial Times",
+      "date": "11 June 2025",
+      "link": "article.html"
+    }
+  ],
+  "currencies": [
+    {
+      "title": "Currency Article 1",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+1",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Currency Article 2",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+2",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Currency Article 3",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+3",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Currency Article 4",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+4",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Currency Article 5",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+5",
+      "source": "Bloomberg",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Currency Article 6",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+6",
+      "source": "Reuters",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Currency Article 7",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+7",
+      "source": "MarketWatch",
+      "date": "11 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Currency Article 8",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+8",
+      "source": "Financial Times",
+      "date": "11 June 2025",
+      "link": "article.html"
+    }
+  ],
+  "cryptos": [
+    {
+      "title": "Crypto Article 1",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+1",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Crypto Article 2",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+2",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Crypto Article 3",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+3",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Crypto Article 4",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+4",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Crypto Article 5",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+5",
+      "source": "CoinDesk",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Crypto Article 6",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+6",
+      "source": "Bloomberg",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Crypto Article 7",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+7",
+      "source": "The Block",
+      "date": "11 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Crypto Article 8",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+8",
+      "source": "Reuters",
+      "date": "11 June 2025",
+      "link": "article.html"
+    }
+  ],
+  "economics": [
+    {
+      "title": "Economics Article 1",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+1",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Economics Article 2",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+2",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Economics Article 3",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+3",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Economics Article 4",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+4",
+      "source": "JPMorgan Chase & Co",
+      "date": "13 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Economics Article 5",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+5",
+      "source": "The Economist",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Economics Article 6",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+6",
+      "source": "Reuters",
+      "date": "12 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Economics Article 7",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+7",
+      "source": "Bloomberg",
+      "date": "11 June 2025",
+      "link": "article.html"
+    },
+    {
+      "title": "Economics Article 8",
+      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+8",
+      "source": "Financial Times",
+      "date": "11 June 2025",
+      "link": "article.html"
+    }
+  ]
+}

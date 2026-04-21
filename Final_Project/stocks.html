@@ -7,7 +7,7 @@
     <title>Stocks — FinanceDaily</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="category">
 
     <!-- Header -->
     <header class="site-header">
@@ -34,107 +34,10 @@
         </nav>
     </header>
 
-    <!-- Main Content -->
+    <!-- Main Content (dynamically rendered from articles.json) -->
     <main class="category-page">
-
-        <!-- Left: Articles -->
-        <div class="category-content">
-
-            <h2 class="category-title">Stocks</h2>
-
-            <!-- Featured Article -->
-            <a href="article.html" class="category-hero">
-                <div class="category-hero-image">
-                    <img src="article_picture.webp" alt="Featured stock article">
-                </div>
-                <div class="category-hero-text">
-                    <h3>Dow closes wild session up 200 points as oil reverses lower and Trump signals Iran war near an end</h3>
-                    <p>The S&amp;P 500 made a comeback from earlier losses on Monday after President Donald Trump said the war against Iran could be reaching its end.</p>
-                </div>
-            </a>
-
-            <hr class="section-divider">
-
-            <!-- Article Grid 2x2 -->
-            <div class="category-grid">
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+1" alt="Stock article image">
-                    <p class="card-source">JPMorgan Chase &amp; Co</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 1</h3>
-                        <p class="card-date">13 June 2025</p>
-                    </div>
-                </a>
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+2" alt="Stock article image">
-                    <p class="card-source">JPMorgan Chase &amp; Co</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 2</h3>
-                        <p class="card-date">13 June 2025</p>
-                    </div>
-                </a>
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+3" alt="Stock article image">
-                    <p class="card-source">JPMorgan Chase &amp; Co</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 3</h3>
-                        <p class="card-date">13 June 2025</p>
-                    </div>
-                </a>
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+4" alt="Stock article image">
-                    <p class="card-source">JPMorgan Chase &amp; Co</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 4</h3>
-                        <p class="card-date">13 June 2025</p>
-                    </div>
-                </a>
-            </div>
-
-            <!-- Hidden Articles (Load More) -->
-            <div class="category-grid hidden-cards" style="display: none;">
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+5" alt="Stock article image">
-                    <p class="card-source">Bloomberg</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 5</h3>
-                        <p class="card-date">12 June 2025</p>
-                    </div>
-                </a>
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+6" alt="Stock article image">
-                    <p class="card-source">Reuters</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 6</h3>
-                        <p class="card-date">12 June 2025</p>
-                    </div>
-                </a>
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+7" alt="Stock article image">
-                    <p class="card-source">CNBC</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 7</h3>
-                        <p class="card-date">11 June 2025</p>
-                    </div>
-                </a>
-                <a href="article.html" class="category-card">
-                    <img src="https://placehold.co/280x180/d4d4d4/888?text=Stocks+8" alt="Stock article image">
-                    <p class="card-source">Financial Times</p>
-                    <div class="card-row">
-                        <h3 class="card-title">Stock Article 8</h3>
-                        <p class="card-date">11 June 2025</p>
-                    </div>
-                </a>
-            </div>
-
-            <div class="load-more-wrap">
-                <button class="load-more-btn" onclick="loadMore(this)">Load more</button>
-            </div>
-
+        <div class="category-content" data-category="stocks">
         </div>
-
-
-
     </main>
 
     <!-- Footer -->

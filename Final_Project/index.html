@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cryptos — FinanceDaily</title>
+    <title>FinanceDaily — Financial News</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body data-page="category">
+<body data-page="home">
 
     <!-- Header -->
     <header class="site-header">
@@ -24,20 +24,19 @@
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html" class="active">HOME</a></li>
                 <li><a href="stocks.html">STOCKS</a></li>
                 <li><a href="currencies.html">CURRENCIES</a></li>
-                <li><a href="cryptos.html" class="active">CRYPTOS</a></li>
+                <li><a href="cryptos.html">CRYPTOS</a></li>
                 <li><a href="economics.html">ECONOMICS</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main Content (dynamically rendered from articles.json) -->
-    <main class="category-page">
-        <div class="category-content" data-category="cryptos">
-        </div>
+    <main id="home-content">
     </main>
+
 
     <!-- Footer -->
     <footer class="site-footer">
