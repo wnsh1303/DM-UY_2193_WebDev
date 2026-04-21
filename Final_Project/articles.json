@@ -1,243 +1,357 @@
 {
   "featured": {
+    "id": "featured",
+    "category": "stocks",
     "title": "Dow closes wild session up 200 points as oil reverses lower and Trump signals Iran war near an end",
     "description": "The S&P 500 made a comeback from earlier losses on Monday after President Donald Trump said the war against Iran could be reaching its end.",
     "image": "article_picture.webp",
-    "link": "article.html",
     "source": "CNBC",
+    "author": "Sean Conlon, Alex Harring",
     "date": "9 March 2026",
-    "category": "stocks"
+    "content": [
+      "The S&amp;P 500 made a comeback from earlier losses on Monday after President Donald Trump said the war against Iran could be reaching its end.",
+      "The broad market index rose 0.83% to close at 6,795.99, while the Dow Jones Industrial Average added 239.25 points, or 0.5%, and ended at 47,740.80. The blue-chip index is coming off its biggest weekly slide in nearly a year. The Nasdaq Composite jumped 1.38% and settled at 22,695.95.",
+      "Those moves mark an impressive turnaround from the losses seen earlier in the day. The Dow was down nearly 900 points at its session low, and the S&amp;P 500 and Nasdaq fell as much as 1.5% each.",
+      "On Monday, Trump told a CBS News reporter that \"the war is very complete, pretty much.\" \"They have no navy, no communications, they've got no Air Force,\" the president said, adding that the U.S. is \"very far\" ahead of his initially stated timeframe for the war of four to five weeks.",
+      "Trump also said that ships are moving through the key Strait of Hormuz passageway and that he is \"thinking about taking it over.\"",
+      "West Texas Intermediate crude fell to as low as $81 a barrel following the developments. It broke above $100 per barrel in overnight trading to hit more than $119, its first time above this threshold since 2022, when investors were reacting to the aftermath of Russia's invasion of Ukraine. International benchmark Brent crude pulled back to nearly $84 a barrel at its lowest for the day. U.S. oil prices began the year below $60 a barrel.",
+      "\"It seems like things are moving on the up and up,\" said John Luke Tyner, portfolio manager and head of fixed income at Aptus Capital Advisors.",
+      "The broader market was also helped by a rise in semiconductor stocks. Broadcom advanced more than 4%, while Micron Technology and Advanced Micro Devices increased 5% each. Nvidia climbed more than 2%.",
+      "Oil prices jumped after major Middle East producers slashed their output due to the closure of the Strait of Hormuz. Kuwait announced cuts but did not say by how much, while Iraq has reportedly seen its production fall 70%.",
+      "Energy ministers from the Group of Seven nations — namely, Canada, France, Germany, Italy, Japan, the United Kingdom and the U.S. — are planning to meet virtually on Tuesday morning to discuss potentially releasing oil reserves. The group's finance ministers met on Monday to discuss a release, though they did not make a decision.",
+      "The $100 oil level was seen by many on Wall Street as a breaking point for the economy unless the war is resolved quickly and prices retreat. Trump posted Sunday evening that a gain in \"short term oil prices\" was a \"very small price to pay\" for destroying Iran's nuclear threat.",
+      "BlackRock said the surge in oil prices tied to escalating tensions in the Middle East is likely to create turbulence in financial markets but may not derail the broader economic expansion if supply disruptions prove temporary. \"The situation is fluid, and the risks are real,\" BlackRock investment strategists wrote in a note to clients Monday. \"For now, we believe the shock is likely to be short-lived.\"",
+      "U.S. stocks are likely to \"remain constructive\" for at least another year despite rising geopolitical risks, according to Morgan Stanley. The U.S. market has already shown several signs of emerging from a months-long correction, including a consolidation of stock performance and positioning in more crowded areas of the market.",
+      "When talking about the recent spikes in oil prices, Tyner said, \"I don't think this little blip was bad enough or long enough to really upset the apple cart as far as growth and earnings go.\" \"I would imagine that unless a lot of infrastructure is screwed up that oil gets right back and normalizes somewhere between $65 and $75 [a barrel], which is kind of happy medium for everyone,\" Tyner continued.",
+      "<em>— CNBC's Eamon Javers and Spencer Kimball contributed reporting</em>"
+    ]
   },
   "stocks": [
     {
+      "id": "stocks-0",
+      "category": "stocks",
       "title": "Stock Article 1",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+1",
       "source": "JPMorgan Chase & Co",
+      "author": "Jane Doe",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Wall Street analysts are closely watching the latest earnings reports from major technology companies.", "The results could set the tone for market direction in the coming weeks.", "Investors remain cautious amid mixed economic signals from the Federal Reserve."]
     },
     {
+      "id": "stocks-1",
+      "category": "stocks",
       "title": "Stock Article 2",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+2",
       "source": "JPMorgan Chase & Co",
+      "author": "Mark Johnson",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["The Federal Reserve held interest rates steady at its latest meeting, signaling patience.", "Bond yields fell in response, boosting equity markets across the board.", "Analysts expect the central bank to remain on hold through the summer."]
     },
     {
+      "id": "stocks-2",
+      "category": "stocks",
       "title": "Stock Article 3",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+3",
       "source": "JPMorgan Chase & Co",
+      "author": "Sarah Williams",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Small-cap stocks have outperformed their large-cap counterparts this quarter.", "The Russell 2000 index has gained more than 8% since January.", "Analysts attribute the rally to improving domestic economic conditions."]
     },
     {
+      "id": "stocks-3",
+      "category": "stocks",
       "title": "Stock Article 4",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+4",
       "source": "JPMorgan Chase & Co",
+      "author": "Robert Chen",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["IPO activity has surged in 2025, with several high-profile tech companies going public.", "The strong IPO market reflects growing investor confidence.", "However, some analysts warn that valuations may be stretched in certain sectors."]
     },
     {
+      "id": "stocks-4",
+      "category": "stocks",
       "title": "Stock Article 5",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+5",
       "source": "Bloomberg",
+      "author": "Emily Park",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["Hedge funds have increased their exposure to energy stocks amid rising oil prices.", "The sector has been one of the best performers this year.", "Fund managers cite supply constraints as a key driver of the rally."]
     },
     {
+      "id": "stocks-5",
+      "category": "stocks",
       "title": "Stock Article 6",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+6",
       "source": "Reuters",
+      "author": "David Kim",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["Retail investors continue to pour money into index funds at a record pace.", "Passive investing now accounts for more than half of all U.S. equity assets.", "The trend has raised concerns about market concentration and systemic risk."]
     },
     {
+      "id": "stocks-6",
+      "category": "stocks",
       "title": "Stock Article 7",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+7",
       "source": "CNBC",
+      "author": "Lisa Thompson",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["Bank stocks rallied after major lenders reported better-than-expected quarterly earnings.", "Net interest income rose across the sector as lending activity picked up.", "Executives expressed cautious optimism about the economic outlook."]
     },
     {
+      "id": "stocks-7",
+      "category": "stocks",
       "title": "Stock Article 8",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+8",
       "source": "Financial Times",
+      "author": "James Wright",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["European markets followed Wall Street higher as trade tensions eased.", "The Stoxx 600 posted its best weekly gain in three months.", "Investors welcomed signs of progress in U.S.-EU trade negotiations."]
     }
   ],
   "currencies": [
     {
+      "id": "currencies-0",
+      "category": "currencies",
       "title": "Currency Article 1",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+1",
       "source": "JPMorgan Chase & Co",
+      "author": "Anna Lee",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["The U.S. dollar weakened against major currencies following dovish Fed commentary.", "The euro rose to its highest level in three months against the greenback.", "Currency traders are now pricing in a potential rate cut by year-end."]
     },
     {
+      "id": "currencies-1",
+      "category": "currencies",
       "title": "Currency Article 2",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+2",
       "source": "JPMorgan Chase & Co",
+      "author": "Michael Brown",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["The Japanese yen surged after the Bank of Japan hinted at tightening monetary policy.", "USD/JPY fell below 145 for the first time in months.", "The move caught many carry trade investors off guard."]
     },
     {
+      "id": "currencies-2",
+      "category": "currencies",
       "title": "Currency Article 3",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+3",
       "source": "JPMorgan Chase & Co",
+      "author": "Sophie Martinez",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Emerging market currencies posted broad gains this week as risk appetite improved.", "The Brazilian real and South African rand led the advance.", "Capital flows into developing economies have accelerated in recent months."]
     },
     {
+      "id": "currencies-3",
+      "category": "currencies",
       "title": "Currency Article 4",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+4",
       "source": "JPMorgan Chase & Co",
+      "author": "Thomas Anderson",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["The British pound rallied after stronger-than-expected UK GDP data.", "GBP/USD broke above the 1.28 level for the first time this year.", "The Bank of England is now expected to delay its next rate cut."]
     },
     {
+      "id": "currencies-4",
+      "category": "currencies",
       "title": "Currency Article 5",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+5",
       "source": "Bloomberg",
+      "author": "Rachel Green",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["Central banks around the world are diversifying reserves away from the U.S. dollar.", "Gold and the Chinese yuan have been primary beneficiaries of this trend.", "The shift reflects growing concerns about U.S. fiscal policy."]
     },
     {
+      "id": "currencies-5",
+      "category": "currencies",
       "title": "Currency Article 6",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+6",
       "source": "Reuters",
+      "author": "Kevin White",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["The Swiss franc strengthened as investors sought safe-haven assets.", "Geopolitical tensions in the Middle East drove demand for traditional safe havens.", "The franc is up more than 5% against the dollar this year."]
     },
     {
+      "id": "currencies-6",
+      "category": "currencies",
       "title": "Currency Article 7",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+7",
       "source": "MarketWatch",
+      "author": "Diana Ross",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["Digital currency initiatives by central banks are accelerating globally.", "The European Central Bank is expected to launch a digital euro pilot this year.", "The move could reshape the international payments landscape."]
     },
     {
+      "id": "currencies-7",
+      "category": "currencies",
       "title": "Currency Article 8",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+8",
       "source": "Financial Times",
+      "author": "Paul Walker",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["The Australian dollar fell sharply after weak employment data.", "The jobless rate rose to 4.3%, above economist expectations.", "Markets now expect the Reserve Bank of Australia to cut rates in August."]
     }
   ],
   "cryptos": [
     {
+      "id": "cryptos-0",
+      "category": "cryptos",
       "title": "Crypto Article 1",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+1",
       "source": "JPMorgan Chase & Co",
+      "author": "Chris Yang",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Bitcoin surged past $90,000 as institutional adoption continues to grow.", "Several major asset managers have launched new crypto ETF products.", "The rally has been fueled by increasing regulatory clarity in the U.S."]
     },
     {
+      "id": "cryptos-1",
+      "category": "cryptos",
       "title": "Crypto Article 2",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+2",
       "source": "JPMorgan Chase & Co",
+      "author": "Mia Zhang",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Ethereum's latest network upgrade has reduced transaction fees by 40%.", "The improvement has sparked renewed interest in decentralized applications.", "DeFi protocols on Ethereum have seen a surge in total value locked."]
     },
     {
+      "id": "cryptos-2",
+      "category": "cryptos",
       "title": "Crypto Article 3",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+3",
       "source": "JPMorgan Chase & Co",
+      "author": "Alex Rivera",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Stablecoin market capitalization has reached a new all-time high of $200 billion.", "Tether and USDC continue to dominate the market.", "The growth reflects increasing use of stablecoins for cross-border payments."]
     },
     {
+      "id": "cryptos-3",
+      "category": "cryptos",
       "title": "Crypto Article 4",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+4",
       "source": "JPMorgan Chase & Co",
+      "author": "Nina Patel",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["The SEC has approved three new spot Bitcoin ETFs, bringing the total to twelve.", "The decision marks a significant shift in the regulator's stance on crypto.", "Analysts expect billions in new inflows over the coming months."]
     },
     {
+      "id": "cryptos-4",
+      "category": "cryptos",
       "title": "Crypto Article 5",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+5",
       "source": "CoinDesk",
+      "author": "Jordan Lee",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["NFT trading volumes have rebounded after months of decline.", "New platforms focused on gaming and music NFTs are driving the recovery.", "Industry leaders say the market is maturing beyond speculative collecting."]
     },
     {
+      "id": "cryptos-5",
+      "category": "cryptos",
       "title": "Crypto Article 6",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+6",
       "source": "Bloomberg",
+      "author": "Sam Taylor",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["Crypto mining companies are increasingly turning to renewable energy sources.", "Solar and wind power now account for 40% of Bitcoin mining energy.", "The shift is helping to address environmental concerns about the industry."]
     },
     {
+      "id": "cryptos-6",
+      "category": "cryptos",
       "title": "Crypto Article 7",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+7",
       "source": "The Block",
+      "author": "Casey Morgan",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["Layer-2 scaling solutions are seeing record adoption across major blockchains.", "Transaction costs have dropped significantly, making DeFi more accessible.", "Developers are building increasingly sophisticated applications on these networks."]
     },
     {
+      "id": "cryptos-7",
+      "category": "cryptos",
       "title": "Crypto Article 8",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+8",
       "source": "Reuters",
+      "author": "Taylor Kim",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["Major banks are expanding their crypto custody services to meet institutional demand.", "The move signals growing mainstream acceptance of digital assets.", "Regulatory frameworks in key markets are providing the confidence needed for expansion."]
     }
   ],
   "economics": [
     {
+      "id": "economics-0",
+      "category": "economics",
       "title": "Economics Article 1",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+1",
       "source": "JPMorgan Chase & Co",
+      "author": "Peter Grant",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["U.S. GDP growth exceeded expectations in the first quarter, rising at a 3.1% annualized rate.", "Consumer spending remained the primary driver of economic expansion.", "Economists now expect full-year growth to come in above 2.5%."]
     },
     {
+      "id": "economics-1",
+      "category": "economics",
       "title": "Economics Article 2",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+2",
       "source": "JPMorgan Chase & Co",
+      "author": "Laura Chen",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Inflation continued to moderate in May, with CPI rising just 2.3% year-over-year.", "Core inflation, excluding food and energy, fell to its lowest level in two years.", "The data supports the Fed's patient approach to monetary policy."]
     },
     {
+      "id": "economics-2",
+      "category": "economics",
       "title": "Economics Article 3",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+3",
       "source": "JPMorgan Chase & Co",
+      "author": "Daniel Hayes",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["The labor market added 275,000 jobs in May, beating expectations.", "The unemployment rate held steady at 3.8%, near historic lows.", "Wage growth moderated slightly, easing inflation concerns."]
     },
     {
+      "id": "economics-3",
+      "category": "economics",
       "title": "Economics Article 4",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+4",
       "source": "JPMorgan Chase & Co",
+      "author": "Maria Santos",
       "date": "13 June 2025",
-      "link": "article.html"
+      "content": ["Housing starts surged 12% in May as builders responded to strong demand.", "The housing market has been boosted by a slight decline in mortgage rates.", "New home construction is expected to remain elevated through the summer."]
     },
     {
+      "id": "economics-4",
+      "category": "economics",
       "title": "Economics Article 5",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+5",
       "source": "The Economist",
+      "author": "George Bell",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["Global trade volumes have recovered to pre-pandemic levels for the first time.", "Supply chain disruptions have largely been resolved across major shipping routes.", "The recovery has been uneven, with some emerging markets lagging behind."]
     },
     {
+      "id": "economics-5",
+      "category": "economics",
       "title": "Economics Article 6",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+6",
       "source": "Reuters",
+      "author": "Helen Park",
       "date": "12 June 2025",
-      "link": "article.html"
+      "content": ["Consumer confidence rose to a six-month high in June.", "Households cited improving job prospects and moderating inflation as key factors.", "Retail spending is expected to remain healthy through the holiday season."]
     },
     {
+      "id": "economics-6",
+      "category": "economics",
       "title": "Economics Article 7",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+7",
       "source": "Bloomberg",
+      "author": "Victor Adams",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["China's economic recovery has shown signs of stalling as property sector woes persist.", "The government has introduced new stimulus measures to support growth.", "Economists have lowered their 2025 GDP forecasts for the world's second-largest economy."]
     },
     {
+      "id": "economics-7",
+      "category": "economics",
       "title": "Economics Article 8",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+8",
       "source": "Financial Times",
+      "author": "Claire Wilson",
       "date": "11 June 2025",
-      "link": "article.html"
+      "content": ["The European Central Bank cut rates for the second time this year.", "The eurozone economy has struggled with weak manufacturing output.", "ECB President Lagarde signaled that further easing could be on the table."]
     }
   ]
 }

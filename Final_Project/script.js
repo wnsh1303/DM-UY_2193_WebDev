@@ -6,28 +6,23 @@
         var track = document.querySelector('.ticker-track');
         if (!track) return;
 
-        // Collect original items
         var items = Array.from(track.children);
         if (items.length === 0) return;
 
-        // Measure one full set width
         var setWidth = 0;
         items.forEach(function (item) {
             setWidth += item.offsetWidth;
         });
 
-        // Calculate how many copies we need so the content is at least 2x the viewport
         var viewportWidth = window.innerWidth;
         var copies = Math.ceil((viewportWidth * 2) / setWidth) + 1;
 
-        // Clone items enough times
         for (var i = 0; i < copies; i++) {
             items.forEach(function (item) {
                 track.appendChild(item.cloneNode(true));
             });
         }
 
-        // Set animation distance to exactly one set width via CSS custom property
         track.style.setProperty('--set-width', setWidth + 'px');
     });
 })();
@@ -51,6 +46,28 @@ function loadMore(btn) {
 }
 
 /* ===========================
+   Helper: Article link with ID
+   =========================== */
+function getArticleLink(article) {
+    return 'article.html?id=' + article.id;
+}
+
+/* ===========================
+   Helper: Find article by ID
+   =========================== */
+function findArticleById(data, id) {
+    if (data.featured.id === id) return data.featured;
+    var categories = ['stocks', 'currencies', 'cryptos', 'economics'];
+    for (var i = 0; i < categories.length; i++) {
+        var articles = data[categories[i]];
+        for (var j = 0; j < articles.length; j++) {
+            if (articles[j].id === id) return articles[j];
+        }
+    }
+    return null;
+}
+
+/* ===========================
    Articles from JSON
    =========================== */
 (function initArticles() {
@@ -65,33 +82,29 @@ function loadMore(btn) {
                     var category = document.querySelector('.category-content').getAttribute('data-category');
                     renderCategoryPage(data, category);
                 } else if (page === 'article') {
-                    renderRelatedSection(data);
+                    renderArticlePage(data);
                 }
             });
     });
 })();
 
-/* ---- Helper: create a card for homepage ---- */
+/* ---- Card creators ---- */
 function createHomeCard(article) {
     var a = document.createElement('a');
-    a.href = article.link;
+    a.href = getArticleLink(article);
     a.className = 'card';
-
     a.innerHTML =
         '<img src="' + article.image + '" alt="' + article.title + '">' +
         '<p class="card-source">' + article.source + '</p>' +
         '<h3 class="card-title">' + article.title + '</h3>' +
         '<p class="card-date">' + article.date + '</p>';
-
     return a;
 }
 
-/* ---- Helper: create a card for category page ---- */
 function createCategoryCard(article) {
     var a = document.createElement('a');
-    a.href = article.link;
+    a.href = getArticleLink(article);
     a.className = 'category-card';
-
     a.innerHTML =
         '<img src="' + article.image + '" alt="' + article.title + '">' +
         '<p class="card-source">' + article.source + '</p>' +
@@ -99,22 +112,18 @@ function createCategoryCard(article) {
             '<h3 class="card-title">' + article.title + '</h3>' +
             '<p class="card-date">' + article.date + '</p>' +
         '</div>';
-
     return a;
 }
 
-/* ---- Helper: create a related card ---- */
 function createRelatedCard(article) {
     var a = document.createElement('a');
-    a.href = article.link;
+    a.href = getArticleLink(article);
     a.className = 'related-card';
-
     a.innerHTML =
         '<img src="' + article.image + '" alt="' + article.title + '">' +
         '<p class="card-source">' + article.source + '</p>' +
         '<h3 class="card-title">' + article.title + '</h3>' +
         '<p class="card-date">' + article.date + '</p>';
-
     return a;
 }
 
@@ -125,29 +134,18 @@ function renderHomePage(data) {
     var main = document.getElementById('home-content');
     if (!main) return;
 
-    // Hero
     var featured = data.featured;
-    var heroHTML =
-        '<a href="' + featured.link + '" class="hero">' +
-            '<div class="hero-image">' +
-                '<img src="' + featured.image + '" alt="Featured article image">' +
-            '</div>' +
+    main.innerHTML =
+        '<a href="' + getArticleLink(featured) + '" class="hero">' +
+            '<div class="hero-image"><img src="' + featured.image + '" alt="Featured article image"></div>' +
             '<div class="hero-text">' +
                 '<h2>' + featured.title + '</h2>' +
                 '<p>' + featured.description + '</p>' +
             '</div>' +
-        '</a>' +
-        '<hr class="section-divider">';
-    main.innerHTML = heroHTML;
+        '</a><hr class="section-divider">';
 
-    // Category sections
     var categories = ['stocks', 'currencies', 'cryptos', 'economics'];
-    var categoryLabels = {
-        stocks: 'Stocks',
-        currencies: 'Currencies',
-        cryptos: 'Cryptos',
-        economics: 'Economics'
-    };
+    var labels = { stocks: 'Stocks', currencies: 'Currencies', cryptos: 'Cryptos', economics: 'Economics' };
 
     categories.forEach(function (cat, idx) {
         var section = document.createElement('section');
@@ -156,22 +154,17 @@ function renderHomePage(data) {
 
         var h2 = document.createElement('h2');
         h2.className = 'section-title';
-        h2.innerHTML = '<a href="' + cat + '.html">' + categoryLabels[cat] + '</a>';
+        h2.innerHTML = '<a href="' + cat + '.html">' + labels[cat] + '</a>';
         section.appendChild(h2);
 
         var grid = document.createElement('div');
         grid.className = 'card-grid';
-
-        // Show first 4 articles on home page
-        var articles = data[cat].slice(0, 4);
-        articles.forEach(function (article) {
+        data[cat].slice(0, 4).forEach(function (article) {
             grid.appendChild(createHomeCard(article));
         });
-
         section.appendChild(grid);
         main.appendChild(section);
 
-        // Add divider between sections (not after the last one)
         if (idx < categories.length - 1) {
             var hr = document.createElement('hr');
             hr.className = 'section-divider';
@@ -189,39 +182,28 @@ function renderCategoryPage(data, category) {
 
     var featured = data.featured;
     var articles = data[category];
-    var categoryLabels = {
-        stocks: 'Stocks',
-        currencies: 'Currencies',
-        cryptos: 'Cryptos',
-        economics: 'Economics'
-    };
+    var labels = { stocks: 'Stocks', currencies: 'Currencies', cryptos: 'Cryptos', economics: 'Economics' };
 
-    // Title
     var title = document.createElement('h2');
     title.className = 'category-title';
-    title.textContent = categoryLabels[category] || category;
+    title.textContent = labels[category] || category;
     container.appendChild(title);
 
-    // Hero
     var heroLink = document.createElement('a');
-    heroLink.href = featured.link;
+    heroLink.href = getArticleLink(featured);
     heroLink.className = 'category-hero';
     heroLink.innerHTML =
-        '<div class="category-hero-image">' +
-            '<img src="' + featured.image + '" alt="Featured ' + category + ' article">' +
-        '</div>' +
+        '<div class="category-hero-image"><img src="' + featured.image + '" alt="Featured article"></div>' +
         '<div class="category-hero-text">' +
             '<h3>' + featured.title + '</h3>' +
             '<p>' + featured.description + '</p>' +
         '</div>';
     container.appendChild(heroLink);
 
-    // Divider
     var hr = document.createElement('hr');
     hr.className = 'section-divider';
     container.appendChild(hr);
 
-    // Main grid (first 4)
     var mainGrid = document.createElement('div');
     mainGrid.className = 'category-grid';
     articles.slice(0, 4).forEach(function (article) {
@@ -229,7 +211,6 @@ function renderCategoryPage(data, category) {
     });
     container.appendChild(mainGrid);
 
-    // Hidden grid (remaining articles, for Load More)
     if (articles.length > 4) {
         var hiddenGrid = document.createElement('div');
         hiddenGrid.className = 'category-grid hidden-cards';
@@ -240,7 +221,6 @@ function renderCategoryPage(data, category) {
         container.appendChild(hiddenGrid);
     }
 
-    // Load More button
     var loadWrap = document.createElement('div');
     loadWrap.className = 'load-more-wrap';
     var loadBtn = document.createElement('button');
@@ -252,24 +232,67 @@ function renderCategoryPage(data, category) {
 }
 
 /* ===========================
-   Render: Article Related Section
+   Render: Article Page
    =========================== */
-function renderRelatedSection(data) {
-    var grid = document.querySelector('.related-grid');
-    if (!grid) return;
+function renderArticlePage(data) {
+    var params = new URLSearchParams(window.location.search);
+    var id = params.get('id');
+    if (!id) return;
 
-    // Determine category from article page (data-category attribute on the related section)
-    var section = document.querySelector('.related-section');
-    var category = section ? section.getAttribute('data-category') : null;
+    var article = findArticleById(data, id);
+    if (!article) return;
 
-    if (!category || !data[category]) return;
+    var labels = { stocks: 'STOCKS', currencies: 'CURRENCIES', cryptos: 'CRYPTOS', economics: 'ECONOMICS' };
 
-    // Clear existing hardcoded related cards
-    grid.innerHTML = '';
+    // Update page title
+    document.title = article.title + ' — FinanceDaily';
 
-    // Show up to 3 articles from the same category
-    var articles = data[category].slice(0, 3);
-    articles.forEach(function (article) {
-        grid.appendChild(createRelatedCard(article));
+    // Render article body
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    var contentHTML = '';
+    article.content.forEach(function (para) {
+        contentHTML += '<p>' + para + '</p>';
+    });
+
+    articleBody.innerHTML =
+        '<p class="article-category">' + (labels[article.category] || article.category) + '</p>' +
+        '<h1 class="article-title">' + article.title + '</h1>' +
+        '<div class="article-meta">' +
+            '<div class="article-meta-left">' +
+                '<span class="article-author">' + article.author + '</span>' +
+                '<span class="article-date">' + article.date + '</span>' +
+            '</div>' +
+            '<div class="article-social">' +
+                '<a href="#" aria-label="Twitter">&#x1D54F;</a>' +
+                '<a href="#" aria-label="Facebook">f</a>' +
+                '<a href="#" aria-label="Email">✉</a>' +
+                '<a href="#" aria-label="Share">⎘</a>' +
+            '</div>' +
+        '</div>' +
+        '<div class="article-content">' + contentHTML + '</div>';
+
+    // Render related section
+    var relatedGrid = document.querySelector('.related-grid');
+    var relatedSection = document.querySelector('.related-section');
+    if (relatedGrid && article.category && data[article.category]) {
+        // Update data-category
+        relatedSection.setAttribute('data-category', article.category);
+        relatedGrid.innerHTML = '';
+        // Show up to 3 articles from same category, excluding current article
+        var related = data[article.category].filter(function (a) { return a.id !== article.id; }).slice(0, 3);
+        related.forEach(function (a) {
+            relatedGrid.appendChild(createRelatedCard(a));
+        });
+    }
+
+    // Highlight correct nav item
+    var navLinks = document.querySelectorAll('.main-nav a');
+    navLinks.forEach(function (link) {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === article.category + '.html') {
+            link.classList.add('active');
+        }
     });
 }
