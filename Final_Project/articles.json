@@ -30,7 +30,7 @@
     {
       "id": "stocks-0",
       "category": "stocks",
-      "title": "Stock Article 1",
+      "title": "Tech earnings crush estimates as Nvidia and Apple lead S&P 500 to fresh highs",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+1",
       "source": "JPMorgan Chase & Co",
       "author": "Jane Doe",
@@ -40,7 +40,7 @@
     {
       "id": "stocks-1",
       "category": "stocks",
-      "title": "Stock Article 2",
+      "title": "Fed holds rates steady, signals no rush to cut as inflation cools gradually",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+2",
       "source": "JPMorgan Chase & Co",
       "author": "Mark Johnson",
@@ -50,7 +50,7 @@
     {
       "id": "stocks-2",
       "category": "stocks",
-      "title": "Stock Article 3",
+      "title": "Small-cap stocks surge past large-caps as Russell 2000 posts best quarter in two years",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+3",
       "source": "JPMorgan Chase & Co",
       "author": "Sarah Williams",
@@ -60,7 +60,7 @@
     {
       "id": "stocks-3",
       "category": "stocks",
-      "title": "Stock Article 4",
+      "title": "IPO market roars back to life with $12 billion in new listings this quarter",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+4",
       "source": "JPMorgan Chase & Co",
       "author": "Robert Chen",
@@ -70,7 +70,7 @@
     {
       "id": "stocks-4",
       "category": "stocks",
-      "title": "Stock Article 5",
+      "title": "Hedge funds pile into energy stocks as oil supply crunch deepens",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+5",
       "source": "Bloomberg",
       "author": "Emily Park",
@@ -80,7 +80,7 @@
     {
       "id": "stocks-5",
       "category": "stocks",
-      "title": "Stock Article 6",
+      "title": "Passive investing hits record $15 trillion, raising market concentration fears",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+6",
       "source": "Reuters",
       "author": "David Kim",
@@ -90,7 +90,7 @@
     {
       "id": "stocks-6",
       "category": "stocks",
-      "title": "Stock Article 7",
+      "title": "Big bank earnings top expectations as JPMorgan and Goldman lead financials rally",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+7",
       "source": "CNBC",
       "author": "Lisa Thompson",
@@ -100,7 +100,7 @@
     {
       "id": "stocks-7",
       "category": "stocks",
-      "title": "Stock Article 8",
+      "title": "European stocks follow Wall Street higher as U.S.-EU trade deal nears completion",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+8",
       "source": "Financial Times",
       "author": "James Wright",
@@ -112,7 +112,7 @@
     {
       "id": "currencies-0",
       "category": "currencies",
-      "title": "Currency Article 1",
+      "title": "Dollar slides to three-month low after dovish Fed minutes rattle currency markets",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+1",
       "source": "JPMorgan Chase & Co",
       "author": "Anna Lee",
@@ -122,7 +122,7 @@
     {
       "id": "currencies-1",
       "category": "currencies",
-      "title": "Currency Article 2",
+      "title": "Yen surges as Bank of Japan signals surprise shift toward tighter monetary policy",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+2",
       "source": "JPMorgan Chase & Co",
       "author": "Michael Brown",
@@ -132,7 +132,7 @@
     {
       "id": "currencies-2",
       "category": "currencies",
-      "title": "Currency Article 3",
+      "title": "Emerging market currencies rally as global risk appetite returns in force",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+3",
       "source": "JPMorgan Chase & Co",
       "author": "Sophie Martinez",
@@ -142,7 +142,7 @@
     {
       "id": "currencies-3",
       "category": "currencies",
-      "title": "Currency Article 4",
+      "title": "British pound breaks above $1.28 on stronger-than-expected UK growth data",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+4",
       "source": "JPMorgan Chase & Co",
       "author": "Thomas Anderson",
@@ -152,7 +152,7 @@
     {
       "id": "currencies-4",
       "category": "currencies",
-      "title": "Currency Article 5",
+      "title": "Central banks accelerate shift away from dollar reserves, boosting gold and yuan",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+5",
       "source": "Bloomberg",
       "author": "Rachel Green",
@@ -162,7 +162,7 @@
     {
       "id": "currencies-5",
       "category": "currencies",
-      "title": "Currency Article 6",
+      "title": "Swiss franc climbs to yearly high as Middle East tensions fuel safe-haven demand",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+6",
       "source": "Reuters",
       "author": "Kevin White",
@@ -172,7 +172,7 @@
     {
       "id": "currencies-6",
       "category": "currencies",
-      "title": "Currency Article 7",
+      "title": "ECB moves closer to launching digital euro as pilot program enters final phase",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+7",
       "source": "MarketWatch",
       "author": "Diana Ross",
@@ -182,7 +182,7 @@
     {
       "id": "currencies-7",
       "category": "currencies",
-      "title": "Currency Article 8",
+      "title": "Australian dollar tumbles after weak jobs report raises rate-cut expectations",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+8",
       "source": "Financial Times",
       "author": "Paul Walker",
@@ -194,7 +194,7 @@
     {
       "id": "cryptos-0",
       "category": "cryptos",
-      "title": "Crypto Article 1",
+      "title": "Bitcoin blasts past $90,000 as institutional ETF inflows hit record highs",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+1",
       "source": "JPMorgan Chase & Co",
       "author": "Chris Yang",
@@ -204,7 +204,7 @@
     {
       "id": "cryptos-1",
       "category": "cryptos",
-      "title": "Crypto Article 2",
+      "title": "Ethereum fees drop 40% after major network upgrade boosts DeFi activity",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+2",
       "source": "JPMorgan Chase & Co",
       "author": "Mia Zhang",
@@ -214,7 +214,7 @@
     {
       "id": "cryptos-2",
       "category": "cryptos",
-      "title": "Crypto Article 3",
+      "title": "Stablecoin market cap reaches $200 billion as cross-border payments surge",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+3",
       "source": "JPMorgan Chase & Co",
       "author": "Alex Rivera",
@@ -224,7 +224,7 @@
     {
       "id": "cryptos-3",
       "category": "cryptos",
-      "title": "Crypto Article 4",
+      "title": "SEC approves three new spot Bitcoin ETFs in landmark regulatory shift",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+4",
       "source": "JPMorgan Chase & Co",
       "author": "Nina Patel",
@@ -234,7 +234,7 @@
     {
       "id": "cryptos-4",
       "category": "cryptos",
-      "title": "Crypto Article 5",
+      "title": "NFT market rebounds as gaming and music platforms drive fresh trading volumes",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+5",
       "source": "CoinDesk",
       "author": "Jordan Lee",
@@ -244,7 +244,7 @@
     {
       "id": "cryptos-5",
       "category": "cryptos",
-      "title": "Crypto Article 6",
+      "title": "Crypto mining goes green: renewables now power 40% of Bitcoin network",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+6",
       "source": "Bloomberg",
       "author": "Sam Taylor",
@@ -254,7 +254,7 @@
     {
       "id": "cryptos-6",
       "category": "cryptos",
-      "title": "Crypto Article 7",
+      "title": "Layer-2 networks see record adoption as transaction costs plunge across chains",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+7",
       "source": "The Block",
       "author": "Casey Morgan",
@@ -264,7 +264,7 @@
     {
       "id": "cryptos-7",
       "category": "cryptos",
-      "title": "Crypto Article 8",
+      "title": "Wall Street banks expand crypto custody services to meet surging institutional demand",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+8",
       "source": "Reuters",
       "author": "Taylor Kim",
@@ -276,7 +276,7 @@
     {
       "id": "economics-0",
       "category": "economics",
-      "title": "Economics Article 1",
+      "title": "U.S. GDP growth beats forecasts at 3.1%, fueled by resilient consumer spending",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+1",
       "source": "JPMorgan Chase & Co",
       "author": "Peter Grant",
@@ -286,7 +286,7 @@
     {
       "id": "economics-1",
       "category": "economics",
-      "title": "Economics Article 2",
+      "title": "Inflation eases to 2.3% as core CPI hits lowest level in two years",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+2",
       "source": "JPMorgan Chase & Co",
       "author": "Laura Chen",
@@ -296,7 +296,7 @@
     {
       "id": "economics-2",
       "category": "economics",
-      "title": "Economics Article 3",
+      "title": "U.S. economy adds 275,000 jobs in May, smashing Wall Street expectations",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+3",
       "source": "JPMorgan Chase & Co",
       "author": "Daniel Hayes",
@@ -306,7 +306,7 @@
     {
       "id": "economics-3",
       "category": "economics",
-      "title": "Economics Article 4",
+      "title": "Housing starts jump 12% as lower mortgage rates spark building boom",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+4",
       "source": "JPMorgan Chase & Co",
       "author": "Maria Santos",
@@ -316,7 +316,7 @@
     {
       "id": "economics-4",
       "category": "economics",
-      "title": "Economics Article 5",
+      "title": "Global trade volumes recover to pre-pandemic levels for first time since 2019",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+5",
       "source": "The Economist",
       "author": "George Bell",
@@ -326,7 +326,7 @@
     {
       "id": "economics-5",
       "category": "economics",
-      "title": "Economics Article 6",
+      "title": "Consumer confidence surges to six-month high on improving jobs outlook",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+6",
       "source": "Reuters",
       "author": "Helen Park",
@@ -336,7 +336,7 @@
     {
       "id": "economics-6",
       "category": "economics",
-      "title": "Economics Article 7",
+      "title": "China's recovery stalls as property crisis drags on, prompting fresh stimulus measures",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+7",
       "source": "Bloomberg",
       "author": "Victor Adams",
@@ -346,7 +346,7 @@
     {
       "id": "economics-7",
       "category": "economics",
-      "title": "Economics Article 8",
+      "title": "ECB cuts rates for second time this year as eurozone manufacturing slumps",
       "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+8",
       "source": "Financial Times",
       "author": "Claire Wilson",
