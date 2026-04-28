@@ -83,7 +83,12 @@ function findArticleById(data, id) {
                     renderCategoryPage(data, category);
                 } else if (page === 'article') {
                     renderArticlePage(data);
+                } else if (page === 'search') {
+                    renderSearchPage(data);
                 }
+            })
+            .catch(function (err) {
+                console.error('Failed to load articles.json:', err);
             });
     });
 })();
@@ -112,7 +117,55 @@ function createCategoryCard(article) {
             '<h3 class="card-title">' + article.title + '</h3>' +
             '<p class="card-date">' + article.date + '</p>' +
         '</div>';
+
+    // Add TradingView mini chart widget for stocks with ticker
+    if (article.ticker) {
+        var chartWrapper = document.createElement('div');
+        chartWrapper.className = 'stock-chart-wrapper';
+
+        var widgetContainer = document.createElement('div');
+        widgetContainer.className = 'tradingview-widget-container stock-mini-chart';
+        widgetContainer.setAttribute('data-ticker', article.ticker);
+
+        var widgetInner = document.createElement('div');
+        widgetInner.className = 'tradingview-widget-container__widget';
+        widgetContainer.appendChild(widgetInner);
+
+        chartWrapper.appendChild(widgetContainer);
+        a.appendChild(chartWrapper);
+    }
+
     return a;
+}
+
+/* ===========================
+   TradingView Mini Chart Init
+   =========================== */
+function initStockMiniCharts() {
+    var containers = document.querySelectorAll('.stock-mini-chart');
+    containers.forEach(function (container) {
+        var ticker = container.getAttribute('data-ticker');
+        if (!ticker) return;
+
+        var script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js';
+        script.async = true;
+        script.textContent = JSON.stringify({
+            "symbol": ticker,
+            "width": "100%",
+            "height": "100%",
+            "locale": "en",
+            "dateRange": "1M",
+            "colorTheme": "light",
+            "isTransparent": true,
+            "autosize": true,
+            "largeChartUrl": "",
+            "noTimeScale": false,
+            "chartOnly": false
+        });
+        container.appendChild(script);
+    });
 }
 
 function createRelatedCard(article) {
@@ -174,6 +227,224 @@ function renderHomePage(data) {
 }
 
 /* ===========================
+   Render: Search Page
+   =========================== */
+function renderSearchPage(data) {
+    var searchForm = document.getElementById('search-form');
+    var searchInput = document.getElementById('search-input');
+    var headingEl = document.getElementById('search-heading');
+    var countEl = document.getElementById('search-count');
+    var sortEl = document.getElementById('search-sort');
+    var resultsList = document.getElementById('search-results');
+    var sortBtns = document.querySelectorAll('.sort-btn');
+    var categoryRadios = document.querySelectorAll('input[name="category"]');
+    var sourceFiltersEl = document.getElementById('source-filters');
+
+    if (!searchForm || !searchInput) return;
+
+    var categoryLabels = { stocks: 'Stocks', currencies: 'Currencies', cryptos: 'Cryptos', economics: 'Economics' };
+
+    // Gather all articles
+    var allArticles = [];
+    allArticles.push(data.featured);
+    ['stocks', 'currencies', 'cryptos', 'economics'].forEach(function (cat) {
+        data[cat].forEach(function (article) { allArticles.push(article); });
+    });
+
+    // Extract unique sources for source filter
+    var sources = [];
+    allArticles.forEach(function (a) {
+        if (a.source && sources.indexOf(a.source) === -1) sources.push(a.source);
+    });
+    sources.sort();
+
+    // Build source checkboxes
+    if (sourceFiltersEl) {
+        sources.forEach(function (src) {
+            var label = document.createElement('label');
+            label.className = 'filter-option';
+            label.innerHTML = '<input type="checkbox" name="source" value="' + src + '" checked> ' + src;
+            sourceFiltersEl.appendChild(label);
+        });
+    }
+
+    var currentSort = 'newest';
+    var currentQuery = '';
+
+    // Parse date string to sortable value
+    function parseDate(dateStr) {
+        var d = new Date(dateStr);
+        return isNaN(d.getTime()) ? 0 : d.getTime();
+    }
+
+    // Check URL query param on load
+    var urlParams = new URLSearchParams(window.location.search);
+    var initialQ = urlParams.get('q');
+    if (initialQ) {
+        searchInput.value = initialQ;
+        currentQuery = initialQ.trim().toLowerCase();
+        performSearch();
+    } else {
+        // Show initial state
+        resultsList.innerHTML =
+            '<div class="search-initial">' +
+                '<h3>Search FinanceDaily</h3>' +
+                '<p>Search by article title, author, source, or keywords.</p>' +
+            '</div>';
+    }
+
+    // Form submit
+    searchForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        currentQuery = searchInput.value.trim().toLowerCase();
+        // Update URL without reload
+        var newUrl = 'search.html' + (currentQuery ? '?q=' + encodeURIComponent(searchInput.value.trim()) : '');
+        history.replaceState(null, '', newUrl);
+        performSearch();
+    });
+
+    // Sort buttons
+    sortBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            sortBtns.forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            currentSort = btn.getAttribute('data-sort');
+            performSearch();
+        });
+    });
+
+    // Category filter
+    categoryRadios.forEach(function (radio) {
+        radio.addEventListener('change', function () {
+            performSearch();
+        });
+    });
+
+    // Source filter
+    if (sourceFiltersEl) {
+        sourceFiltersEl.addEventListener('change', function () {
+            performSearch();
+        });
+    }
+
+    function performSearch() {
+        if (!currentQuery) {
+            headingEl.innerHTML = '';
+            countEl.textContent = '';
+            sortEl.style.display = 'none';
+            resultsList.innerHTML =
+                '<div class="search-initial">' +
+                    '<h3>Search FinanceDaily</h3>' +
+                    '<p>Search by article title, author, source, or keywords.</p>' +
+                '</div>';
+            return;
+        }
+
+        // Get active category
+        var activeCategory = 'all';
+        categoryRadios.forEach(function (r) { if (r.checked) activeCategory = r.value; });
+
+        // Get active sources
+        var activeSources = [];
+        var sourceCheckboxes = document.querySelectorAll('input[name="source"]:checked');
+        sourceCheckboxes.forEach(function (cb) { activeSources.push(cb.value); });
+
+        // Filter
+        var filtered = allArticles.filter(function (article) {
+            // Category
+            if (activeCategory !== 'all' && article.category !== activeCategory) return false;
+            // Source
+            if (activeSources.length > 0 && activeSources.indexOf(article.source) === -1) return false;
+            // Text search
+            var title = (article.title || '').toLowerCase();
+            var source = (article.source || '').toLowerCase();
+            var author = (article.author || '').toLowerCase();
+            var desc = (article.description || '').toLowerCase();
+            var content = (article.content || []).join(' ').toLowerCase();
+            return title.indexOf(currentQuery) !== -1 ||
+                   source.indexOf(currentQuery) !== -1 ||
+                   author.indexOf(currentQuery) !== -1 ||
+                   desc.indexOf(currentQuery) !== -1 ||
+                   content.indexOf(currentQuery) !== -1;
+        });
+
+        // Sort
+        filtered.sort(function (a, b) {
+            var da = parseDate(a.date);
+            var db = parseDate(b.date);
+            return currentSort === 'newest' ? db - da : da - db;
+        });
+
+        // Update heading
+        headingEl.innerHTML = 'Viewing results for <em>"' + searchInput.value.trim() + '"</em>';
+        countEl.textContent = filtered.length + ' of ' + allArticles.length + ' articles';
+        sortEl.style.display = '';
+
+        // Render results
+        resultsList.innerHTML = '';
+
+        if (filtered.length === 0) {
+            resultsList.innerHTML =
+                '<div class="no-results">' +
+                    '<h3>No articles found</h3>' +
+                    '<p>Try adjusting your search or filter criteria.</p>' +
+                '</div>';
+            return;
+        }
+
+        var ITEMS_PER_PAGE = 5;
+        var shownCount = 0;
+
+        function renderBatch() {
+            var end = Math.min(shownCount + ITEMS_PER_PAGE, filtered.length);
+            for (var i = shownCount; i < end; i++) {
+                var article = filtered[i];
+                var a = document.createElement('a');
+                a.href = getArticleLink(article);
+                a.className = 'search-result-item';
+
+                var descText = '';
+                if (article.description) {
+                    descText = article.description;
+                } else if (article.content && article.content.length > 0) {
+                    descText = article.content[0];
+                }
+
+                a.innerHTML =
+                    '<div class="search-result-image"><img src="' + article.image + '" alt="' + article.title + '"></div>' +
+                    '<div class="search-result-content">' +
+                        '<p class="search-result-category">' + (categoryLabels[article.category] || article.category) + '</p>' +
+                        '<h3 class="search-result-title">' + article.title + '</h3>' +
+                        '<p class="search-result-desc">' + descText + '</p>' +
+                        '<p class="search-result-date">' + article.date + '</p>' +
+                    '</div>';
+
+                resultsList.appendChild(a);
+            }
+            shownCount = end;
+
+            // Remove existing load-more button
+            var existingBtn = resultsList.querySelector('.load-more-btn');
+            if (existingBtn) existingBtn.remove();
+
+            // Add load-more button if more items remain
+            if (shownCount < filtered.length) {
+                var loadMoreBtn = document.createElement('button');
+                loadMoreBtn.className = 'load-more-btn';
+                loadMoreBtn.textContent = 'Load More (' + (filtered.length - shownCount) + ' remaining)';
+                loadMoreBtn.addEventListener('click', function () {
+                    renderBatch();
+                });
+                resultsList.appendChild(loadMoreBtn);
+            }
+        }
+
+        renderBatch();
+    }
+}
+
+
+/* ===========================
    Render: Category Page
    =========================== */
 function renderCategoryPage(data, category) {
@@ -226,9 +497,20 @@ function renderCategoryPage(data, category) {
     var loadBtn = document.createElement('button');
     loadBtn.className = 'load-more-btn';
     loadBtn.textContent = 'Load more';
-    loadBtn.onclick = function () { loadMore(loadBtn); };
+    loadBtn.onclick = function () {
+        loadMore(loadBtn);
+        // Initialize any newly revealed TradingView charts
+        if (category === 'stocks') {
+            setTimeout(initStockMiniCharts, 100);
+        }
+    };
     loadWrap.appendChild(loadBtn);
     container.appendChild(loadWrap);
+
+    // Initialize TradingView mini charts for stocks category
+    if (category === 'stocks') {
+        setTimeout(initStockMiniCharts, 100);
+    }
 }
 
 /* ===========================

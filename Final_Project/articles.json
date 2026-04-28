@@ -30,328 +30,528 @@
     {
       "id": "stocks-0",
       "category": "stocks",
-      "title": "Tech earnings crush estimates as Nvidia and Apple lead S&P 500 to fresh highs",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+1",
-      "source": "JPMorgan Chase & Co",
-      "author": "Jane Doe",
-      "date": "13 June 2025",
-      "content": ["Wall Street analysts are closely watching the latest earnings reports from major technology companies.", "The results could set the tone for market direction in the coming weeks.", "Investors remain cautious amid mixed economic signals from the Federal Reserve."]
+      "ticker": "FOREXCOM:SPXUSD",
+      "title": "Tech earnings crush estimates as semiconductor surge leads S&P 500 to fresh highs",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
+      "source": "Financial Times",
+      "author": "Sarah Miller",
+      "date": "27 April 2026",
+      "content": [
+        "Equity markets have seen a remarkably strong performance in late April, with indices reaching fresh highs. The S&P 500 and Nasdaq have been buoyed significantly by tech-oriented earnings, reversing the slight downturn experienced earlier in the month.",
+        "Strong quarterly results, particularly from semiconductor and networking equipment companies, have significantly bolstered investor sentiment as global demand for AI infrastructure accelerates. Companies heavily invested in the artificial intelligence supply chain have reported revenue growth that vastly exceeded even the most optimistic analyst projections.",
+        "Nearly 140 of the largest 500 US companies have reported their Q1 2026 results, with approximately 80% beating estimates, prompting analysts to revise upward their annual growth projections. This broad-based earnings strength suggests that the underlying economy remains robust despite concerns over prolonged high interest rates.",
+        "Market strategists point out that the current rally is not just concentrated in a handful of mega-cap tech stocks, but is beginning to broaden out into other sectors, including industrials and materials. This widening participation is generally viewed as a healthy indicator for the long-term sustainability of the bull market.",
+        "Looking ahead, investors are closely watching the upcoming Federal Reserve policy meeting for any clues regarding the future path of interest rates. While immediate cuts are largely priced out of the market, any dovish commentary could provide further fuel for the ongoing equity market ascent."
+      ]
     },
     {
       "id": "stocks-1",
       "category": "stocks",
-      "title": "Fed holds rates steady, signals no rush to cut as inflation cools gradually",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+2",
-      "source": "JPMorgan Chase & Co",
-      "author": "Mark Johnson",
-      "date": "13 June 2025",
-      "content": ["The Federal Reserve held interest rates steady at its latest meeting, signaling patience.", "Bond yields fell in response, boosting equity markets across the board.", "Analysts expect the central bank to remain on hold through the summer."]
+      "ticker": "NYSE:CR",
+      "title": "Crane Company reports strong Q1 results with 15% adjusted EPS growth",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
+      "source": "Zacks Investment",
+      "author": "Michael Chen",
+      "date": "27 April 2026",
+      "content": [
+        "Crane Company reported strong first-quarter results with a 15% adjusted EPS growth, reflecting robust demand across its industrial segments. The diversified manufacturer of highly engineered industrial products surpassed Wall Street expectations on both top and bottom lines.",
+        "The company also raised its full-year EPS outlook, citing an improved macroeconomic environment and successful cost-reduction initiatives implemented over the past year. Management highlighted that order backlogs remain at historically high levels, providing excellent visibility into future revenue streams.",
+        "Shares rallied 4% in after-hours trading following the announcement, outpacing the broader industrial sector index. Analysts were quick to upgrade their price targets, noting the company's strong free cash flow generation and prudent capital allocation strategy.",
+        "In the earnings call, the CEO emphasized the strategic investments being made in automation and digitalization, which are expected to further drive margin expansion in the coming quarters. The aerospace and electronics segment, in particular, saw outsized growth due to recovering commercial aviation demand.",
+        "Despite potential headwinds from currency fluctuations and lingering supply chain bottlenecks in specific regions, Crane Company's management expressed confidence in their ability to navigate these challenges and deliver sustained shareholder value throughout 2026."
+      ]
     },
     {
       "id": "stocks-2",
       "category": "stocks",
-      "title": "Small-cap stocks surge past large-caps as Russell 2000 posts best quarter in two years",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+3",
-      "source": "JPMorgan Chase & Co",
-      "author": "Sarah Williams",
-      "date": "13 June 2025",
-      "content": ["Small-cap stocks have outperformed their large-cap counterparts this quarter.", "The Russell 2000 index has gained more than 8% since January.", "Analysts attribute the rally to improving domestic economic conditions."]
+      "ticker": "NYSE:BRX",
+      "title": "Brixmor Property Group increases 2026 outlook citing strong business momentum",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
+      "source": "Wall Street Journal",
+      "author": "David Peterson",
+      "date": "26 April 2026",
+      "content": [
+        "Real estate investment trust Brixmor Property Group increased its 2026 outlook citing strong first-quarter operating results. The company, which owns and operates a high-quality, national portfolio of open-air retail centers, demonstrated exceptional resilience in a challenging commercial real estate environment.",
+        "The company highlighted sustained leasing momentum and higher occupancy rates across its open-air retail portfolios, indicating robust consumer spending patterns. Record leasing spreads were achieved on new leases, demonstrating the strong demand for premium retail space anchored by essential businesses.",
+        "Analysts note that physical retail properties anchored by grocery stores continue to demonstrate resilience despite the broader e-commerce shift. Consumers are increasingly returning to brick-and-mortar stores for daily necessities and experiential retail, driving foot traffic and tenant sales.",
+        "Brixmor also provided an update on its value-enhancing redevelopment pipeline, which includes several major projects aimed at upgrading tenant mix and improving property aesthetics. These strategic investments are expected to yield significant returns and further solidify the company's market position.",
+        "With a strong balance sheet and ample liquidity, Brixmor is well-positioned to capitalize on potential acquisition opportunities in the fragmented retail real estate market. The revised upward guidance reflects management's confidence in the enduring appeal of their well-located, grocery-anchored centers."
+      ]
     },
     {
       "id": "stocks-3",
       "category": "stocks",
-      "title": "IPO market roars back to life with $12 billion in new listings this quarter",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+4",
-      "source": "JPMorgan Chase & Co",
-      "author": "Robert Chen",
-      "date": "13 June 2025",
-      "content": ["IPO activity has surged in 2025, with several high-profile tech companies going public.", "The strong IPO market reflects growing investor confidence.", "However, some analysts warn that valuations may be stretched in certain sectors."]
+      "ticker": "ASX:FGR",
+      "title": "First Graphene Limited acquires assets of Ionic Industries",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
+      "source": "Financial Times",
+      "author": "Emma Watson",
+      "date": "25 April 2026",
+      "content": [
+        "First Graphene Limited (FGR) announced a definitive agreement to acquire the core assets of Ionic Industries and its subsidiary, Imagine Intelligent Materials. This strategic acquisition marks a significant milestone in FGR's mission to become a leading global supplier of advanced graphene-based technologies.",
+        "The acquisition is expected to significantly expand FGR's product portfolio in advanced materials and sensor technologies used in industrial applications. Ionic Industries brings valuable intellectual property and manufacturing capabilities that complement FGR's existing operations.",
+        "Management stated the deal will be accretive to earnings by late 2026 as operational synergies are realized. The integration process is expected to be swift, allowing the combined entity to immediately leverage cross-selling opportunities across their respective customer bases.",
+        "Graphene, known for its exceptional strength and conductivity, is increasingly being adopted in various sectors including energy storage, composites, and water filtration. The acquisition positions FGR to capture a larger share of this rapidly growing market.",
+        "Industry analysts reacted positively to the news, noting that consolidation in the advanced materials sector is necessary to achieve economies of scale and accelerate commercialization. FGR's stock price experienced a notable uptick following the official announcement of the acquisition."
+      ]
     },
     {
       "id": "stocks-4",
       "category": "stocks",
-      "title": "Hedge funds pile into energy stocks as oil supply crunch deepens",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+5",
+      "ticker": "NASDAQ:RIVN",
+      "title": "Rivian CEO receives massive pay package amidst EV market shift",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
       "source": "Bloomberg",
-      "author": "Emily Park",
-      "date": "12 June 2025",
-      "content": ["Hedge funds have increased their exposure to energy stocks amid rising oil prices.", "The sector has been one of the best performers this year.", "Fund managers cite supply constraints as a key driver of the rally."]
+      "author": "Chris Evans",
+      "date": "24 April 2026",
+      "content": [
+        "Recent proxy filings revealed that the CEO of Rivian received a pay package significantly larger than those of other top US car company executives. The compensation details have sparked intense debate among shareholders and corporate governance experts regarding executive pay in the hyper-competitive electric vehicle sector.",
+        "The compensation plan, heavily tied to long-term performance metrics, highlights the board's aggressive strategy to scale production and achieve profitability. The package includes substantial stock option grants that vest only if the company meets ambitious production and revenue targets over the next five years.",
+        "The news comes as the electric vehicle market undergoes a structural shift, with traditional automakers scaling back EV investments while pure-play startups race for market share. Rivian has been navigating supply chain challenges and increasing competition, making the execution of its strategic plan critical for its survival and growth.",
+        "Defenders of the pay package argue that retaining top talent is essential in an industry where innovation and rapid scaling are paramount. They point out that the CEO's compensation is almost entirely at-risk, aligning his interests directly with long-term shareholder value creation.",
+        "However, critics suggest that the massive payout is disproportionate to the company's current financial performance, noting that Rivian has yet to post a full-year profit. The upcoming annual shareholder meeting is expected to feature contentious discussions regarding the justification of such a lucrative compensation agreement."
+      ]
     },
     {
       "id": "stocks-5",
       "category": "stocks",
-      "title": "Passive investing hits record $15 trillion, raising market concentration fears",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+6",
+      "ticker": "FOREXCOM:SPXUSD",
+      "title": "Market risk appetite returns as geopolitical tensions show signs of easing",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
       "source": "Reuters",
-      "author": "David Kim",
-      "date": "12 June 2025",
-      "content": ["Retail investors continue to pour money into index funds at a record pace.", "Passive investing now accounts for more than half of all U.S. equity assets.", "The trend has raised concerns about market concentration and systemic risk."]
+      "author": "Linda Park",
+      "date": "23 April 2026",
+      "content": [
+        "Global stock markets rebounded sharply this week as investors exhibited a sense of cautious optimism regarding the easing of tensions in the Middle East. Diplomatic efforts appear to be gaining traction, reducing the immediate threat of a wider regional conflict that could disrupt global energy supplies.",
+        "The shift in sentiment has helped improve risk appetite, leading to a rotation out of defensive assets like gold and bonds into growth-oriented equities. Market volatility indices, such as the VIX, have retreated significantly from their recent peaks, indicating a return to more normalized trading conditions.",
+        "Energy sectors saw a slight pullback as oil prices stabilized, while consumer discretionary and technology led the market rally. The stabilization of energy costs has alleviated some concerns regarding persistent inflation, providing central banks with more breathing room to evaluate their monetary policy paths.",
+        "Despite the positive momentum, market analysts caution that geopolitical risks remain elevated and sudden escalations could quickly reverse the current trend. Investors are advised to maintain diversified portfolios and remain vigilant for any breaking news that could impact global markets.",
+        "The upcoming release of key economic indicators, including inflation data and employment reports, will be closely scrutinized to determine if the fundamental economic backdrop supports the recent equity market gains. A resilient economy coupled with easing geopolitical tensions could pave the way for further market highs."
+      ]
     },
     {
       "id": "stocks-6",
       "category": "stocks",
-      "title": "Big bank earnings top expectations as JPMorgan and Goldman lead financials rally",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+7",
+      "ticker": "NYSE:CCK",
+      "title": "Crown Holdings beats Q1 estimates, provides upbeat 2026 guidance",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
       "source": "CNBC",
-      "author": "Lisa Thompson",
-      "date": "11 June 2025",
-      "content": ["Bank stocks rallied after major lenders reported better-than-expected quarterly earnings.", "Net interest income rose across the sector as lending activity picked up.", "Executives expressed cautious optimism about the economic outlook."]
+      "author": "Tom Harris",
+      "date": "22 April 2026",
+      "content": [
+        "Packaging giant Crown Holdings reported first-quarter results that surpassed Wall Street expectations on both top and bottom lines. The company's robust performance was driven by strong demand across its global operations, particularly in the beverage packaging segment.",
+        "The company provided strong guidance for the remainder of the year, driven by a recovery in global beverage can volumes and successful pricing strategies. Management highlighted that their strategic investments in capacity expansion are yielding positive results and capturing market share.",
+        "Investors reacted positively, sending the stock to a six-month high during early morning trading. The company's ability to navigate inflationary pressures and pass on higher input costs to customers was cited by analysts as a key factor in its financial success.",
+        "Crown Holdings also provided an update on its sustainability initiatives, noting significant progress in reducing its carbon footprint and increasing the use of recycled materials in its products. These efforts are increasingly important to environmentally conscious consumers and corporate clients.",
+        "Looking forward, the company expects continued growth in emerging markets, where rising middle-class populations are driving increased consumption of packaged beverages. Crown Holdings' expansive global footprint positions it well to capitalize on these long-term demographic trends."
+      ]
     },
     {
       "id": "stocks-7",
       "category": "stocks",
-      "title": "European stocks follow Wall Street higher as U.S.-EU trade deal nears completion",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Stocks+8",
-      "source": "Financial Times",
-      "author": "James Wright",
-      "date": "11 June 2025",
-      "content": ["European markets followed Wall Street higher as trade tensions eased.", "The Stoxx 600 posted its best weekly gain in three months.", "Investors welcomed signs of progress in U.S.-EU trade negotiations."]
+      "ticker": "NASDAQ:GOOGL",
+      "title": "US tech giants brace for stringent EU AI regulations",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Stocks",
+      "source": "The Verge",
+      "author": "Anna Scott",
+      "date": "21 April 2026",
+      "content": [
+        "Major US technology firms are increasing their compliance budgets as the European Union prepares to enforce its finalized Artificial Intelligence Act. The groundbreaking legislation represents the world's first comprehensive legal framework governing the development and deployment of artificial intelligence technologies.",
+        "The new regulations will impose strict transparency and data usage requirements on generative AI models, potentially affecting the rapid deployment of new features in the region. Companies will be required to conduct rigorous risk assessments and ensure their systems do not propagate bias or misinformation.",
+        "Despite the regulatory headwinds, analysts believe the core revenue drivers for these companies remain intact globally. The vast resources of tech giants like Google, Microsoft, and Meta allow them to absorb the associated compliance costs more easily than smaller startups, potentially consolidating their market dominance.",
+        "Tech lobbyists have expressed concerns that the stringent rules could stifle innovation and put European companies at a competitive disadvantage globally. However, EU officials argue that the regulations are essential to protect fundamental human rights and build public trust in AI technologies.",
+        "The implementation of the AI Act will be closely watched by other global regulatory bodies, including those in the United States and Asia, who are currently debating their own approaches to governing artificial intelligence. The EU framework could serve as a blueprint for international standards in the rapidly evolving AI landscape."
+      ]
     }
   ],
   "currencies": [
     {
       "id": "currencies-0",
       "category": "currencies",
-      "title": "Dollar slides to three-month low after dovish Fed minutes rattle currency markets",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+1",
-      "source": "JPMorgan Chase & Co",
-      "author": "Anna Lee",
-      "date": "13 June 2025",
-      "content": ["The U.S. dollar weakened against major currencies following dovish Fed commentary.", "The euro rose to its highest level in three months against the greenback.", "Currency traders are now pricing in a potential rate cut by year-end."]
+      "title": "USD/JPY hovers near 160.00 as markets await Bank of Japan rate decision",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "Investing.com",
+      "author": "Kenji Sato",
+      "date": "28 April 2026",
+      "content": [
+        "The USD/JPY pair is trading precariously around the 160.00 level as the market anxiously awaits the Bank of Japan's latest interest rate decision. This critical juncture comes after months of speculation regarding when the BOJ will further normalize its monetary policy following its historic exit from negative interest rates.",
+        "While expectations for an immediate rate hike have diminished to below 5%, the focus remains squarely on the BoJ's forward guidance and updated economic forecasts. Traders are parsing every official statement for hints about the timing and magnitude of future tightening measures.",
+        "The 160.00 mark is widely considered a psychological threshold, with traders on high alert for potential currency intervention by Japanese authorities. In the past, the Ministry of Finance has stepped in to support the yen when depreciation became too rapid, and officials have recently escalated their verbal warnings against speculative moves.",
+        "The yen's weakness continues to be driven primarily by the stark interest rate differential between the US and Japan. With the Federal Reserve signaling a 'higher for longer' stance on US rates, the yield advantage of holding dollars over yen remains deeply entrenched, limiting the yen's upside potential.",
+        "Domestic economic data in Japan presents a mixed picture. While core inflation remains above the BOJ's 2% target, real wages have struggled to keep pace, dampening consumer spending. Policymakers face the delicate task of addressing imported inflation caused by the weak yen without stifling the fragile domestic economic recovery."
+      ]
     },
     {
       "id": "currencies-1",
       "category": "currencies",
-      "title": "Yen surges as Bank of Japan signals surprise shift toward tighter monetary policy",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+2",
-      "source": "JPMorgan Chase & Co",
-      "author": "Michael Brown",
-      "date": "13 June 2025",
-      "content": ["The Japanese yen surged after the Bank of Japan hinted at tightening monetary policy.", "USD/JPY fell below 145 for the first time in months.", "The move caught many carry trade investors off guard."]
+      "title": "Euro faces pressure as higher energy costs act as a 'tax' on growth",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "OANDA",
+      "author": "Maria Garcia",
+      "date": "27 April 2026",
+      "content": [
+        "The euro has faced persistent pressure throughout April due to higher global energy costs, which analysts describe as a stealth tax on European economic growth. As a net importer of energy, the Eurozone is particularly vulnerable to spikes in oil and natural gas prices, which directly erode industrial competitiveness and consumer purchasing power.",
+        "As the European Central Bank’s rate decision approaches, analysts are keenly focused on how energy-driven inflation will impact the ECB's monetary rhetoric. While core inflation has shown signs of easing, the resurgence in energy prices threatens to complicate the central bank's path toward interest rate cuts.",
+        "The EUR/USD pair has seen only cautious, moderate advances, lacking strong bullish momentum amid the region's structural economic challenges. Manufacturing powerhouses like Germany continue to report sluggish industrial output, weighing heavily on the broader European economic outlook.",
+        "ECB President Christine Lagarde recently emphasized that the central bank remains data-dependent and is not pre-committing to any specific rate path. This cautious stance reflects the high degree of uncertainty surrounding geopolitical developments and their potential spillover effects on the European economy.",
+        "Currency strategists suggest that a sustained recovery in the euro will require concrete evidence of an industrial rebound in Europe, coupled with a stabilization in global energy markets. Until then, the common currency is expected to remain vulnerable to external shocks and shifts in global risk sentiment."
+      ]
     },
     {
       "id": "currencies-2",
       "category": "currencies",
-      "title": "Emerging market currencies rally as global risk appetite returns in force",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+3",
-      "source": "JPMorgan Chase & Co",
-      "author": "Sophie Martinez",
-      "date": "13 June 2025",
-      "content": ["Emerging market currencies posted broad gains this week as risk appetite improved.", "The Brazilian real and South African rand led the advance.", "Capital flows into developing economies have accelerated in recent months."]
+      "title": "US Dollar maintains safe-haven supremacy amidst geopolitical fog",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "FX Leaders",
+      "author": "James Wilson",
+      "date": "26 April 2026",
+      "content": [
+        "The US Dollar continues to benefit from its dual role as a global safe-haven asset and its structural advantage as a net energy exporter. In times of heightened global uncertainty, capital reliably flows into US-denominated assets, reinforcing the dollar's position as the world's premier reserve currency.",
+        "Tensions in the Middle East have driven capital toward US assets, exacerbating concerns regarding global energy prices and inflation in importing nations. Unlike previous decades, the US now stands largely insulated from energy supply shocks, allowing its economy to outperform peers during periods of elevated oil prices.",
+        "The Dollar Index (DXY) remains near its year-to-date highs, reflecting broad-based strength against a basket of major currencies. Stronger-than-expected US economic data, particularly in employment and retail sales, has further bolstered the fundamental case for dollar dominance.",
+        "The Federal Reserve's reluctance to aggressively cut interest rates in the face of sticky domestic inflation provides significant yield support for the greenback. Investors are increasingly concluding that US rates will remain elevated compared to other major developed economies for the foreseeable future.",
+        "While some analysts warn that an overly strong dollar could eventually weigh on the earnings of US multinational corporations, the immediate market dynamics heavily favor continued dollar strength. Only a significant de-escalation of geopolitical tensions and a marked deterioration in US economic data are likely to reverse the current trend."
+      ]
     },
     {
       "id": "currencies-3",
       "category": "currencies",
-      "title": "British pound breaks above $1.28 on stronger-than-expected UK growth data",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+4",
-      "source": "JPMorgan Chase & Co",
-      "author": "Thomas Anderson",
-      "date": "13 June 2025",
-      "content": ["The British pound rallied after stronger-than-expected UK GDP data.", "GBP/USD broke above the 1.28 level for the first time this year.", "The Bank of England is now expected to delay its next rate cut."]
+      "title": "British Pound volatile as UK inflation hits 3.3% but wage growth slows",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "Financial Times",
+      "author": "Oliver Brown",
+      "date": "25 April 2026",
+      "content": [
+        "The British Pound experienced significant volatility after UK inflation data showed a slight uptick to 3.3% last month. The unexpected rise in consumer prices was largely driven by increases in housing and transport costs, dealing a blow to hopes that inflation was securely on a downward trajectory toward the Bank of England's 2% target.",
+        "However, contrasting data indicating a decline in wage growth has created a complex scenario for the Bank of England's upcoming policy meeting. Average weekly earnings grew at the slowest pace in nearly two years, suggesting that underlying inflationary pressures in the labor market are finally beginning to cool.",
+        "Forex traders are divided on whether the BoE will prioritize fighting sticky headline inflation or begin easing rates to support a cooling labor market and a sluggish broader economy. This divergence in expectations has led to choppy trading conditions for GBP crosses.",
+        "Governor Andrew Bailey recently noted that while progress has been made on inflation, the job is not yet complete. The central bank remains hyper-vigilant regarding services inflation, which has proven more persistent than goods inflation.",
+        "Looking forward, the Pound's trajectory will be heavily influenced by the next batch of employment and inflation reports. A confirmation of slowing wage growth coupled with a resumption of the disinflationary trend could pave the way for a rate cut later this summer, potentially weighing on sterling."
+      ]
     },
     {
       "id": "currencies-4",
       "category": "currencies",
-      "title": "Central banks accelerate shift away from dollar reserves, boosting gold and yuan",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+5",
-      "source": "Bloomberg",
-      "author": "Rachel Green",
-      "date": "12 June 2025",
-      "content": ["Central banks around the world are diversifying reserves away from the U.S. dollar.", "Gold and the Chinese yuan have been primary beneficiaries of this trend.", "The shift reflects growing concerns about U.S. fiscal policy."]
+      "title": "Central banks adopt 'wait and see' approach in a critical week for policy",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "Reuters",
+      "author": "Elena Rossi",
+      "date": "24 April 2026",
+      "content": [
+        "A critical week for global monetary policy has begun, with the Bank of Japan, Federal Reserve, and European Central Bank all scheduled to deliver interest rate decisions. The convergence of these major central bank meetings has created an atmosphere of intense anticipation in the foreign exchange markets.",
+        "Markets generally expect central banks to remain cautious and maintain current rates, given the difficulty in forecasting the economic impact of ongoing geopolitical conflicts. The overriding theme among policymakers appears to be patience, as they seek clearer signals regarding the trajectory of global inflation and growth.",
+        "This coordinated 'higher for longer' stance is leading to compressed volatility in major forex pairs leading up to the announcements. Traders are hesitant to place large directional bets until the central banks release their policy statements and updated economic projections.",
+        "While rate changes are unlikely, market participants will be meticulously analyzing the subtle nuances in the central banks' forward guidance. Even minor shifts in tone regarding the potential timing of future rate cuts or hikes can trigger significant currency movements.",
+        "Analysts warn that the 'wait and see' approach cannot last indefinitely. As economic data continues to evolve, central banks will eventually be forced to diverge in their policy paths, which will likely unleash a new wave of volatility across the global currency markets."
+      ]
     },
     {
       "id": "currencies-5",
       "category": "currencies",
-      "title": "Swiss franc climbs to yearly high as Middle East tensions fuel safe-haven demand",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+6",
-      "source": "Reuters",
-      "author": "Kevin White",
-      "date": "12 June 2025",
-      "content": ["The Swiss franc strengthened as investors sought safe-haven assets.", "Geopolitical tensions in the Middle East drove demand for traditional safe havens.", "The franc is up more than 5% against the dollar this year."]
+      "title": "Swiss Franc gains ground as European investors seek regional safety",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "Bloomberg",
+      "author": "Lukas Meyer",
+      "date": "23 April 2026",
+      "content": [
+        "The Swiss Franc has seen steady inflows over the past week as European investors seek regional safe-haven assets amidst economic and geopolitical uncertainty. The Franc has historically served as a reliable store of value during times of distress, and recent events have reinforced this traditional role.",
+        "The Swiss National Bank's (SNB) unexpected hawkish commentary last week further bolstered the currency against the Euro and Pound. SNB officials signaled a willingness to tolerate a stronger Franc to combat imported inflation, effectively giving a green light to currency speculators.",
+        "Analysts suggest that unless Eurozone economic data shows a marked improvement, the Franc is likely to maintain its upward trajectory. The stark contrast between the robust Swiss economy and the struggling Eurozone manufacturing sector provides strong fundamental support for the EUR/CHF downtrend.",
+        "Furthermore, Switzerland's unique political neutrality and stable financial system continue to attract high-net-worth individuals and institutional capital seeking refuge from global turbulence. This structural demand for Swiss assets exerts continuous upward pressure on the currency.",
+        "While a rapidly appreciating Franc poses challenges for Swiss exporters, the SNB appears focused primarily on price stability. Until global risks subside and European growth accelerates, the Swiss Franc is expected to remain a preferred safe-haven destination."
+      ]
     },
     {
       "id": "currencies-6",
       "category": "currencies",
-      "title": "ECB moves closer to launching digital euro as pilot program enters final phase",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+7",
-      "source": "MarketWatch",
-      "author": "Diana Ross",
-      "date": "11 June 2025",
-      "content": ["Digital currency initiatives by central banks are accelerating globally.", "The European Central Bank is expected to launch a digital euro pilot this year.", "The move could reshape the international payments landscape."]
+      "title": "Australian Dollar struggles amid mixed commodity signals and China data",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "Sydney Morning Herald",
+      "author": "Chloe Davis",
+      "date": "22 April 2026",
+      "content": [
+        "The Australian Dollar is facing significant headwinds following mixed economic data from China, its largest trading partner. As a highly open economy heavily reliant on commodity exports, Australia's currency is acutely sensitive to shifts in Chinese demand.",
+        "While iron ore prices have stabilized somewhat after recent declines, softer-than-expected Chinese industrial production figures have weighed heavily on the AUD/USD pair. The slow pace of China's economic recovery continues to cap the upside potential for the Aussie dollar.",
+        "Domestically, the Reserve Bank of Australia is closely monitoring inflation, which remains stubbornly above its 2-3% target band. The persistent price pressures are complicating future rate cut expectations, with some analysts now predicting the RBA may have to hike rates again before it can ease.",
+        "The combination of external vulnerability and domestic inflation challenges has created a difficult environment for the Australian currency. Strong employment data has provided a floor, but it has not been enough to offset the broader macroeconomic concerns.",
+        "Looking ahead, the performance of the Australian Dollar will likely hinge on the effectiveness of further stimulus measures introduced by the Chinese government to revive its struggling property sector and boost industrial activity."
+      ]
     },
     {
       "id": "currencies-7",
       "category": "currencies",
-      "title": "Australian dollar tumbles after weak jobs report raises rate-cut expectations",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Currencies+8",
-      "source": "Financial Times",
-      "author": "Paul Walker",
-      "date": "11 June 2025",
-      "content": ["The Australian dollar fell sharply after weak employment data.", "The jobless rate rose to 4.3%, above economist expectations.", "Markets now expect the Reserve Bank of Australia to cut rates in August."]
+      "title": "Canadian Dollar boosted by elevated crude oil prices",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
+      "source": "Globe and Mail",
+      "author": "Robert Clark",
+      "date": "21 April 2026",
+      "content": [
+        "The commodity-linked Canadian Dollar has outperformed many of its G10 peers this month, directly benefiting from elevated global crude oil prices. As one of the world's top oil exporters, Canada's terms of trade improve significantly when energy prices surge, providing fundamental support to the 'Loonie'.",
+        "Strong domestic employment data has also provided the Bank of Canada with the necessary leeway to keep rates steady without immediate risk of recession. The Canadian economy added far more jobs than anticipated last month, highlighting the resilience of the domestic labor market.",
+        "Traders expect the USD/CAD pair to remain range-bound in the near term, heavily dependent on the trajectory of global energy markets. While the strong US Dollar provides a counterweight, the robust oil market continues to underpin Canadian currency valuations.",
+        "The Bank of Canada is scheduled to meet next week, and analysts will be closely monitoring their assessment of the economic landscape. While rate cuts are generally expected later this year, strong economic data and high oil prices could delay the central bank's easing cycle.",
+        "Investors are also keeping a close eye on the ongoing US-Canada trade dynamics and potential shifts in energy policy, as these factors can significantly impact the long-term outlook for the Canadian Dollar."
+      ]
     }
   ],
   "cryptos": [
     {
       "id": "cryptos-0",
       "category": "cryptos",
-      "title": "Bitcoin blasts past $90,000 as institutional ETF inflows hit record highs",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+1",
-      "source": "JPMorgan Chase & Co",
-      "author": "Chris Yang",
-      "date": "13 June 2025",
-      "content": ["Bitcoin surged past $90,000 as institutional adoption continues to grow.", "Several major asset managers have launched new crypto ETF products.", "The rally has been fueled by increasing regulatory clarity in the U.S."]
+      "title": "Bitcoin consolidates in high $70Ks as institutional inflows persist",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "CoinDesk",
+      "author": "Alex Thorne",
+      "date": "28 April 2026",
+      "content": [
+        "Bitcoin has been consolidating in the high $70,000s in late April, struggling to consistently break and hold above the formidable $80,000 resistance level. This period of sideways trading follows an aggressive rally earlier in the year, suggesting that the market is taking a necessary breather to establish a new base of support.",
+        "Despite the price stagnation, spot Bitcoin ETFs have seen consistent net inflows, with reports of multi-day positive inflow streaks throughout the month. This institutional demand remains a critical pillar of support, absorbing selling pressure from long-term holders taking profits and miners covering operational costs.",
+        "Market sentiment has shifted from 'extreme greed' into 'neutral' territory according to the Fear & Greed Index, indicating a healthier, more balanced market environment. Analysts view this consolidation phase as a positive development, preventing the market from overheating and setting the stage for more sustainable long-term growth.",
+        "Technical analysts point out that Bitcoin is forming a classic bullish pennant pattern on the daily charts. A decisive breakout above $80,000 accompanied by strong volume could trigger the next major leg up, potentially targeting the $85,000 to $90,000 range in the coming weeks.",
+        "Macroeconomic factors, including the Federal Reserve's interest rate decisions and global liquidity trends, will continue to play a significant role in Bitcoin's short-term price action. A shift toward a more dovish monetary policy could provide the catalyst needed to push Bitcoin to new all-time highs."
+      ]
     },
     {
       "id": "cryptos-1",
       "category": "cryptos",
-      "title": "Ethereum fees drop 40% after major network upgrade boosts DeFi activity",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+2",
-      "source": "JPMorgan Chase & Co",
-      "author": "Mia Zhang",
-      "date": "13 June 2025",
-      "content": ["Ethereum's latest network upgrade has reduced transaction fees by 40%.", "The improvement has sparked renewed interest in decentralized applications.", "DeFi protocols on Ethereum have seen a surge in total value locked."]
+      "title": "Ethereum Foundation continues treasury sales amid robust on-chain activity",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "Crypto.news",
+      "author": "Liam Kelly",
+      "date": "27 April 2026",
+      "content": [
+        "Ethereum has shown a volatile, range-bound performance recently, trading predominantly in the $2,200–$2,400 zone. A notable theme contributing to this price action has been the ongoing treasury sales executed by the Ethereum Foundation, which routinely liquidates holdings to cover operational expenses.",
+        "The Foundation has sold approximately 20,000 ETH so far in 2026 to fund core protocol development, essential research, and broad ecosystem support grants. While these sales are necessary for the long-term health of the network, they introduce periodic localized selling pressure into the market.",
+        "Despite the muted price action, on-chain data paints a very different picture, revealing strong underlying network fundamentals. Smart contract deployments have reached record highs, and institutional accumulation through over-the-counter (OTC) transactions remains incredibly strong, indicating deep-pocketed investors are quietly building positions.",
+        "The recent successful implementation of the 'Pectra' upgrade has further improved network efficiency and reduced transaction fees, making Ethereum more competitive with alternative Layer-1 blockchains. Developers report a surge in activity within the decentralized finance (DeFi) and non-fungible token (NFT) sectors.",
+        "Market observers are closely watching the ETH/BTC trading pair, which has shown signs of bottoming out. A reversal in this critical ratio could signal the beginning of 'altcoin season,' where Ethereum and other digital assets begin to outperform Bitcoin significantly."
+      ]
     },
     {
       "id": "cryptos-2",
       "category": "cryptos",
-      "title": "Stablecoin market cap reaches $200 billion as cross-border payments surge",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+3",
-      "source": "JPMorgan Chase & Co",
-      "author": "Alex Rivera",
-      "date": "13 June 2025",
-      "content": ["Stablecoin market capitalization has reached a new all-time high of $200 billion.", "Tether and USDC continue to dominate the market.", "The growth reflects increasing use of stablecoins for cross-border payments."]
+      "title": "Corporate treasuries increase Bitcoin holdings in Q1 2026",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "The Block",
+      "author": "Frank Chaparro",
+      "date": "26 April 2026",
+      "content": [
+        "Publicly traded companies, led by prominent advocates like Strategy (formerly MicroStrategy), have continued to add significant amounts of Bitcoin to their balance sheets in early 2026. This trend highlights a growing acceptance of Bitcoin as a legitimate institutional reserve asset.",
+        "First-quarter earnings reports reveal a growing trend of mid-sized technology firms and financial services companies adopting Bitcoin as a primary treasury reserve asset. CFOs are increasingly viewing Bitcoin as a necessary hedge against fiat currency debasement and persistent inflation.",
+        "Analysts suggest this consistent corporate buying pressure is establishing a solid price floor for the digital asset, reducing overall market volatility. The transparent nature of these corporate purchases also provides retail investors with increased confidence in the long-term viability of the asset class.",
+        "Furthermore, the introduction of new accounting standards allowing companies to record cryptocurrency holdings at fair market value has removed a major hurdle for corporate adoption. This regulatory clarity is expected to encourage even more traditional businesses to allocate a portion of their cash reserves to digital assets.",
+        "As the macroeconomic environment remains uncertain, the narrative of Bitcoin as 'digital gold' continues to resonate strongly within corporate boardrooms. If this trend accelerates, it could lead to a significant supply shock, driving prices substantially higher over the long term."
+      ]
     },
     {
       "id": "cryptos-3",
       "category": "cryptos",
-      "title": "SEC approves three new spot Bitcoin ETFs in landmark regulatory shift",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+4",
-      "source": "JPMorgan Chase & Co",
-      "author": "Nina Patel",
-      "date": "13 June 2025",
-      "content": ["The SEC has approved three new spot Bitcoin ETFs, bringing the total to twelve.", "The decision marks a significant shift in the regulator's stance on crypto.", "Analysts expect billions in new inflows over the coming months."]
+      "title": "Regulatory clarity in the US spurs DeFi token rally",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "CoinTelegraph",
+      "author": "Helen Partz",
+      "date": "25 April 2026",
+      "content": [
+        "Several major Decentralized Finance (DeFi) tokens experienced double-digit gains this week following highly positive remarks from US lawmakers regarding a new, comprehensive digital asset framework. The market reacted swiftly to the prospect of clear rules of the road replacing the previous environment of regulation-by-enforcement.",
+        "The proposed legislation aims to provide clear, pragmatic guidelines for decentralized protocols, specifically distinguishing them from traditional financial intermediaries. This clarity is expected to alleviate fears of strict SEC enforcement actions that have cast a long shadow over the sector for years.",
+        "Trading volumes on decentralized exchanges surged to their highest levels since late 2024 in response to the news. Institutional investors, who had previously been sidelined due to compliance concerns, are reportedly beginning to actively deploy capital into leading DeFi lending and borrowing protocols.",
+        "Industry leaders have praised the bipartisan effort, noting that sensible regulation is essential to protect consumers while fostering technological innovation. The framework proposes a specialized regulatory sandbox for experimental DeFi projects, encouraging development within the United States.",
+        "While the legislation still needs to pass through various committees before becoming law, the overwhelmingly positive market reaction underscores the immense pent-up demand for DeFi exposure. A clear regulatory environment could unlock the next massive wave of growth for the decentralized finance ecosystem."
+      ]
     },
     {
       "id": "cryptos-4",
       "category": "cryptos",
-      "title": "NFT market rebounds as gaming and music platforms drive fresh trading volumes",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+5",
-      "source": "CoinDesk",
-      "author": "Jordan Lee",
-      "date": "12 June 2025",
-      "content": ["NFT trading volumes have rebounded after months of decline.", "New platforms focused on gaming and music NFTs are driving the recovery.", "Industry leaders say the market is maturing beyond speculative collecting."]
+      "title": "Solana network upgrades successfully deployed, reducing transaction failures",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "Decrypt",
+      "author": "Andrew Hayward",
+      "date": "24 April 2026",
+      "content": [
+        "The Solana network successfully rolled out a highly anticipated mainnet upgrade aimed at resolving recent congestion issues and transaction failures. The network had previously struggled to handle a massive influx of user activity driven by the explosive popularity of meme coins and decentralized exchanges.",
+        "Early data suggests network throughput has stabilized significantly, and developers report vastly improved user experiences across popular decentralized applications. The update implemented a new priority fee mechanism and optimized the way validators process transactions, dramatically reducing the drop rate.",
+        "SOL's price reacted favorably to the technical improvements, outpacing the broader crypto market recovery over the past 48 hours. Investors view the successful upgrade as a testament to the core development team's ability to swiftly address critical infrastructure challenges.",
+        "The improved network stability is expected to attract more developers and projects to the Solana ecosystem, reinforcing its position as a leading high-performance blockchain. Key partnerships with traditional finance institutions for tokenization projects are also reportedly moving forward following the upgrade.",
+        "However, critics note that the network must prove its long-term resilience under sustained heavy load before entirely shedding its reputation for instability. Continuous monitoring and further iterative upgrades will be necessary as Solana aims to handle global-scale financial infrastructure."
+      ]
     },
     {
       "id": "cryptos-5",
       "category": "cryptos",
-      "title": "Crypto mining goes green: renewables now power 40% of Bitcoin network",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+6",
-      "source": "Bloomberg",
-      "author": "Sam Taylor",
-      "date": "12 June 2025",
-      "content": ["Crypto mining companies are increasingly turning to renewable energy sources.", "Solar and wind power now account for 40% of Bitcoin mining energy.", "The shift is helping to address environmental concerns about the industry."]
+      "title": "Bitcoin mining difficulty hits new all-time high post-halving",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "Bitcoin Magazine",
+      "author": "Pete Rizzo",
+      "date": "23 April 2026",
+      "content": [
+        "Bitcoin's mining difficulty has reached a new all-time high, indicating that the network has never been more secure, despite the reduced block subsidy resulting from the recent halving event. The sustained increase in hash rate demonstrates the unwavering long-term confidence of industrial-scale miners.",
+        "Large-scale mining operations have aggressively deployed next-generation ASIC hardware, significantly improving their fleet efficiency to offset the impact of the reduced rewards. These well-capitalized public mining companies are leveraging their access to cheap capital to outcompete smaller players.",
+        "Conversely, smaller, less efficient miners operating with older equipment are beginning to face acute profitability pressures. This dynamic is leading to a wave of consolidation within the mining sector, as larger entities acquire struggling operations and their valuable energy infrastructure.",
+        "The geographic distribution of mining power also continues to evolve, with significant hash rate growth observed in regions offering abundant renewable energy sources and favorable regulatory environments. This shift is helping to address environmental concerns surrounding Bitcoin's energy consumption.",
+        "Market analysts view the rising difficulty as a deeply bullish fundamental indicator. It suggests that despite near-term price volatility, the underlying infrastructure supporting the Bitcoin network is expanding and strengthening at an unprecedented rate."
+      ]
     },
     {
       "id": "cryptos-6",
       "category": "cryptos",
-      "title": "Layer-2 networks see record adoption as transaction costs plunge across chains",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+7",
-      "source": "The Block",
-      "author": "Casey Morgan",
-      "date": "11 June 2025",
-      "content": ["Layer-2 scaling solutions are seeing record adoption across major blockchains.", "Transaction costs have dropped significantly, making DeFi more accessible.", "Developers are building increasingly sophisticated applications on these networks."]
+      "title": "Stablecoin market cap surpasses $200 billion milestone",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "Blockworks",
+      "author": "Macauley Peterson",
+      "date": "22 April 2026",
+      "content": [
+        "The total market capitalization of stablecoins has officially crossed the historic $200 billion mark, signaling massive institutional and retail capital ready to deploy within the crypto ecosystem. This milestone highlights the critical role stablecoins play as the foundational liquidity layer of the digital asset economy.",
+        "Tether (USDT) continues to dominate market share, particularly in emerging markets where it is increasingly used for remittances and as a hedge against local currency devaluation. However, regulated US-based alternatives like USDC and PayPal's PYUSD are seeing rapid adoption in institutional circles and decentralized finance applications.",
+        "This growing liquidity pool is viewed by technical analysts as a highly bullish indicator for future price action in major crypto assets. Historically, significant expansions in stablecoin supply have preceded major upward price movements in Bitcoin and Ethereum.",
+        "The milestone also underscores the growing integration of traditional finance and crypto rails. Major payment processors and credit card networks are increasingly utilizing stablecoin infrastructure for cross-border settlements, drawn by the speed and low cost compared to legacy systems.",
+        "Regulators globally are accelerating efforts to establish comprehensive frameworks for stablecoin issuers to ensure adequate reserve backing and consumer protection. A clear regulatory environment is expected to further accelerate the adoption of stablecoins for everyday commercial transactions."
+      ]
     },
     {
       "id": "cryptos-7",
       "category": "cryptos",
-      "title": "Wall Street banks expand crypto custody services to meet surging institutional demand",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Cryptos+8",
-      "source": "Reuters",
-      "author": "Taylor Kim",
-      "date": "11 June 2025",
-      "content": ["Major banks are expanding their crypto custody services to meet institutional demand.", "The move signals growing mainstream acceptance of digital assets.", "Regulatory frameworks in key markets are providing the confidence needed for expansion."]
+      "title": "Layer 2 scaling solutions process record number of Ethereum transactions",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
+      "source": "Bankless",
+      "author": "David Hoffman",
+      "date": "21 April 2026",
+      "content": [
+        "Ethereum Layer 2 networks, including prominent platforms like Arbitrum, Optimism, and Base, processed a record 15 million transactions combined over a single 24-hour period. This massive throughput demonstrates the effectiveness of Ethereum's rollup-centric scaling roadmap.",
+        "The milestone underscores the successful transition of everyday user activity from the congested Ethereum mainnet to cheaper, faster scaling solutions. Transaction fees on these L2 networks have dropped to fractions of a cent, making micro-transactions and complex decentralized applications economically viable.",
+        "Total Value Locked (TVL) across the entire L2 ecosystem has also reached a new all-time high, driven by innovative DeFi yield strategies and the proliferation of on-chain gaming. Users are increasingly keeping their assets on L2s rather than bridging back to mainnet, creating robust, self-sustaining economies.",
+        "The rapid growth of the Base network, backed by Coinbase, has been particularly notable, drawing millions of retail users into the on-chain ecosystem through seamless exchange integrations. This is widely considered a major step toward mass adoption of decentralized technologies.",
+        "However, the proliferation of numerous distinct L2 networks has led to fragmentation of liquidity and a fragmented user experience. The next major challenge for the Ethereum community will be implementing seamless interoperability protocols to unify these disparate scaling layers into a cohesive ecosystem."
+      ]
     }
   ],
   "economics": [
     {
       "id": "economics-0",
       "category": "economics",
-      "title": "U.S. GDP growth beats forecasts at 3.1%, fueled by resilient consumer spending",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+1",
-      "source": "JPMorgan Chase & Co",
-      "author": "Peter Grant",
-      "date": "13 June 2025",
-      "content": ["U.S. GDP growth exceeded expectations in the first quarter, rising at a 3.1% annualized rate.", "Consumer spending remained the primary driver of economic expansion.", "Economists now expect full-year growth to come in above 2.5%."]
+      "title": "UK inflation reaches 3.3% but wage growth shows signs of declining",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "Financial Times",
+      "author": "Chris Giles",
+      "date": "28 April 2026",
+      "content": [
+        "Inflation in the UK reached 3.3% last month, complicating the economic picture for policymakers at the Bank of England. The unexpected rise was primarily driven by higher motor fuel prices and a slight uptick in food costs, reminding markets that the path to price stability remains bumpy.",
+        "However, crucial data indicating that wage growth is finally showing signs of a decline has provided a glimmer of hope. Average earnings, excluding bonuses, grew at their slowest pace in over 18 months, suggesting that the tight labor market conditions that have fueled services inflation are beginning to loosen.",
+        "This mixed bag of data has led to significant uncertainty regarding future interest rate policies. Traders are actively debating whether the central bank will prioritize tackling the stubbornly high headline inflation figure or begin easing rates to prevent a sharper, unnecessary economic slowdown.",
+        "Business leaders are urging the Bank of England to communicate a clear path forward, noting that the prolonged period of high borrowing costs is severely hindering capital investment and business expansion plans. Consumer confidence also remains fragile amid the elevated cost of living.",
+        "The upcoming inflation print next month will be critical. If the recent uptick proves to be a temporary blip and wage growth continues to moderate, the case for a late-summer rate cut will strengthen significantly, potentially providing relief to millions of mortgage holders."
+      ]
     },
     {
       "id": "economics-1",
       "category": "economics",
-      "title": "Inflation eases to 2.3% as core CPI hits lowest level in two years",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+2",
-      "source": "JPMorgan Chase & Co",
-      "author": "Laura Chen",
-      "date": "13 June 2025",
-      "content": ["Inflation continued to moderate in May, with CPI rising just 2.3% year-over-year.", "Core inflation, excluding food and energy, fell to its lowest level in two years.", "The data supports the Fed's patient approach to monetary policy."]
+      "title": "Geopolitical tensions threaten to reignite global supply chain issues",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "Wall Street Journal",
+      "author": "Paul Hannon",
+      "date": "27 April 2026",
+      "content": [
+        "Ongoing tensions in the Middle East and targeted disruptions in key global shipping lanes are raising serious fears of a renewed supply chain crisis. The attacks on commercial vessels in the Red Sea have forced major shipping companies to reroute vessels around the Cape of Good Hope, adding weeks to transit times.",
+        "Consequently, global shipping costs have surged by nearly 40% over the past two months. Economists warn that these increased transportation expenses will inevitably be passed onto consumers globally, threatening to reignite inflationary pressures just as central banks felt they were gaining control.",
+        "Manufacturers across Europe and North America are increasingly shifting from efficient 'just-in-time' inventory models back to holding larger, costly stockpiles to mitigate potential sudden disruptions. This shift requires significant working capital and reduces overall corporate efficiency.",
+        "The situation is further complicated by severe drought conditions limiting transit through the Panama Canal, creating a perfect storm of logistical challenges. Retailers are already warning of potential shortages of certain consumer goods and electronics heading into the crucial back-to-school shopping season.",
+        "Governments are facing mounting pressure to secure critical maritime trade routes. However, analysts suggest that until a comprehensive geopolitical resolution is reached, supply chain volatility will remain a persistent headwind for the global economic recovery."
+      ]
     },
     {
       "id": "economics-2",
       "category": "economics",
-      "title": "U.S. economy adds 275,000 jobs in May, smashing Wall Street expectations",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+3",
-      "source": "JPMorgan Chase & Co",
-      "author": "Daniel Hayes",
-      "date": "13 June 2025",
-      "content": ["The labor market added 275,000 jobs in May, beating expectations.", "The unemployment rate held steady at 3.8%, near historic lows.", "Wage growth moderated slightly, easing inflation concerns."]
+      "title": "Federal Reserve expected to maintain 'higher for longer' stance",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "Bloomberg",
+      "author": "Craig Torres",
+      "date": "26 April 2026",
+      "content": [
+        "The Federal Reserve is widely anticipated to hold interest rates steady at its upcoming FOMC meeting, adhering firmly to its 'higher for longer' strategy. Federal Reserve Chair Jerome Powell recently signaled that policymakers require substantially more confidence that inflation is moving sustainably toward their 2% target before considering any rate cuts.",
+        "Persistent inflation in the services sector, particularly in housing and insurance, combined with a surprisingly resilient labor market, have provided the Fed with little justification for near-term easing. The US economy continues to add jobs at a robust pace, defying predictions of an imminent slowdown.",
+        "Investors are carefully analyzing every piece of Fed speak for any hints of a timeline for policy normalization later in the year. The market's expectation for rate cuts has been drastically revised, shifting from projections of multiple cuts starting in the spring to perhaps only one or two cuts occurring late in the winter.",
+        "This prolonged period of high interest rates is beginning to show cracks in certain segments of the economy, particularly in commercial real estate and among lower-income consumers relying heavily on credit cards. However, aggregate economic growth remains surprisingly strong.",
+        "Global markets remain highly sensitive to the Fed's trajectory, as the strong US Dollar and high treasury yields exert pressure on emerging market currencies and complicate the monetary policy decisions of other major central banks around the world."
+      ]
     },
     {
       "id": "economics-3",
       "category": "economics",
-      "title": "Housing starts jump 12% as lower mortgage rates spark building boom",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+4",
-      "source": "JPMorgan Chase & Co",
-      "author": "Maria Santos",
-      "date": "13 June 2025",
-      "content": ["Housing starts surged 12% in May as builders responded to strong demand.", "The housing market has been boosted by a slight decline in mortgage rates.", "New home construction is expected to remain elevated through the summer."]
+      "title": "China's economic recovery remains uneven despite targeted stimulus",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "South China Morning Post",
+      "author": "Frank Chen",
+      "date": "25 April 2026",
+      "content": [
+        "China's post-pandemic economic recovery continues to be notably uneven, with manufacturing output showing robust growth while domestic consumer spending and the beleaguered property market continue to lag significantly. The two-speed economy presents a complex challenge for policymakers in Beijing.",
+        "The government has introduced targeted stimulus measures aimed primarily at high-tech manufacturing, green energy transition, and large-scale infrastructure projects. However, authorities have noticeably avoided broad-based consumer handouts or massive bailouts for struggling real estate developers, opting instead for a controlled deleveraging.",
+        "Global commodity markets remain highly sensitive to Chinese demand indicators, particularly for industrial metals like copper and iron ore. While demand for materials used in electric vehicles and solar panels is booming, traditional construction materials remain in a slump.",
+        "Youth unemployment remains a persistent concern, prompting the government to launch initiatives encouraging hiring in state-owned enterprises and the tech sector. Restoring confidence among young professionals and the broader middle class is seen as crucial for transitioning to a consumption-driven economic model.",
+        "International investors remain cautious regarding Chinese equities, balancing the attractive valuations against geopolitical risks and the unpredictable nature of regulatory interventions. The success of China's economic transition will be a defining factor in global growth forecasts for the remainder of the decade."
+      ]
     },
     {
       "id": "economics-4",
       "category": "economics",
-      "title": "Global trade volumes recover to pre-pandemic levels for first time since 2019",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+5",
-      "source": "The Economist",
-      "author": "George Bell",
-      "date": "12 June 2025",
-      "content": ["Global trade volumes have recovered to pre-pandemic levels for the first time.", "Supply chain disruptions have largely been resolved across major shipping routes.", "The recovery has been uneven, with some emerging markets lagging behind."]
+      "title": "Global energy transition investments hit record $2.1 trillion",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "Reuters",
+      "author": "Nina Chestney",
+      "date": "24 April 2026",
+      "content": [
+        "Global investment in the clean energy transition reached a historic record of $2.1 trillion in 2025, according to a comprehensive new report released today. The data underscores a massive acceleration in capital deployment toward sustainable technologies across both developed and developing nations.",
+        "Solar and wind power infrastructure accounted for the largest share of the spending, driven by rapidly falling technology costs and supportive government policies. Investments in electric vehicle manufacturing, charging infrastructure, and grid-scale battery storage also saw exponential year-over-year growth.",
+        "Despite the record spending levels, climate experts and economists warn that the current pace of investment is still fundamentally insufficient to meet the ambitious emission reduction targets outlined in the Paris Agreement. They estimate that annual investments must more than double to avert the most severe impacts of climate change.",
+        "The report highlighted a growing divide between advanced economies, which are rapidly deploying clean technologies, and developing nations, which struggle to attract affordable financing for green projects. International development banks are under increasing pressure to de-risk investments in emerging markets.",
+        "Furthermore, supply chain bottlenecks for critical minerals, such as lithium, copper, and cobalt, threaten to constrain the pace of the energy transition. Policymakers are increasingly focused on securing domestic supply chains and investing in advanced recycling technologies to mitigate these strategic vulnerabilities."
+      ]
     },
     {
       "id": "economics-5",
       "category": "economics",
-      "title": "Consumer confidence surges to six-month high on improving jobs outlook",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+6",
-      "source": "Reuters",
-      "author": "Helen Park",
-      "date": "12 June 2025",
-      "content": ["Consumer confidence rose to a six-month high in June.", "Households cited improving job prospects and moderating inflation as key factors.", "Retail spending is expected to remain healthy through the holiday season."]
+      "title": "US consumer confidence dips amid rising gas prices and inflation fears",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "CNBC",
+      "author": "Jeff Cox",
+      "date": "23 April 2026",
+      "content": [
+        "US consumer confidence unexpectedly declined in April, driven primarily by mounting concerns over rising gasoline prices at the pump and sticky inflation across everyday grocery items. The sentiment gauge revealed growing pessimism regarding the short-term economic outlook among average households.",
+        "The Conference Board's consumer confidence index fell to its lowest level since late 2024, highlighting a stark disconnect between a fundamentally strong macro economy—characterized by low unemployment and solid GDP growth—and the sour mood of the American consumer.",
+        "Retailers are bracing for a potential slowdown in discretionary spending over the critical summer shopping and travel months. Major retail chains have already reported a noticeable shift in consumer behavior, with shoppers increasingly trading down to store brands and delaying large-ticket purchases.",
+        "The rising cost of borrowing, heavily influenced by the Federal Reserve's sustained high interest rates, is also weighing heavily on sentiment. High mortgage rates have effectively frozen the housing market, while auto loan and credit card delinquencies are beginning to trend upward from historic lows.",
+        "Economists warn that if consumer sentiment continues to deteriorate, it could become a self-fulfilling prophecy, leading to a broader contraction in consumer spending, which accounts for over two-thirds of US economic activity. Policymakers are hoping that a stabilization in energy prices will help reverse the negative trend in the coming months."
+      ]
     },
     {
       "id": "economics-6",
       "category": "economics",
-      "title": "China's recovery stalls as property crisis drags on, prompting fresh stimulus measures",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+7",
-      "source": "Bloomberg",
-      "author": "Victor Adams",
-      "date": "11 June 2025",
-      "content": ["China's economic recovery has shown signs of stalling as property sector woes persist.", "The government has introduced new stimulus measures to support growth.", "Economists have lowered their 2025 GDP forecasts for the world's second-largest economy."]
+      "title": "Japan struggles with weak Yen impact on household purchasing power",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "Nikkei Asia",
+      "author": "Tetsushi Kajimoto",
+      "date": "22 April 2026",
+      "content": [
+        "The historic and persistent weakness of the Japanese Yen is severely impacting household purchasing power across the nation, as the cost of imported food, energy, and raw materials skyrockets. The depreciating currency is effectively acting as a regressive tax on the Japanese populace.",
+        "While a weak currency traditionally benefits large Japanese multinational exporters like Toyota and Sony by making their goods cheaper overseas and inflating repatriated profits, small domestic businesses and everyday consumers are bearing the full brunt of imported inflation.",
+        "Pressure is mounting intensely on the Bank of Japan and the central government to intervene more forcefully in currency markets to stem the Yen's rapid decline. However, unilateral intervention is often viewed as a temporary band-aid rather than a structural fix, so long as the massive interest rate gap with the US remains.",
+        "The rising cost of living has become a major political issue, with opposition parties criticizing the ruling government's handling of the economy. In response, the government has rolled out a series of subsidies for gasoline and utility bills to shield the most vulnerable households from the price shocks.",
+        "Labor unions achieved the largest wage hikes in decades during the recent spring wage negotiations, but inflation is still outpacing real wage growth for many workers. Economists argue that sustained, broad-based wage increases are the only long-term solution to pull Japan out of its decades-long deflationary mindset."
+      ]
     },
     {
       "id": "economics-7",
       "category": "economics",
-      "title": "ECB cuts rates for second time this year as eurozone manufacturing slumps",
-      "image": "https://placehold.co/280x180/d4d4d4/888?text=Economics+8",
-      "source": "Financial Times",
-      "author": "Claire Wilson",
-      "date": "11 June 2025",
-      "content": ["The European Central Bank cut rates for the second time this year.", "The eurozone economy has struggled with weak manufacturing output.", "ECB President Lagarde signaled that further easing could be on the table."]
+      "title": "Commercial real estate sector faces ongoing refinancing hurdles",
+      "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
+      "source": "Forbes",
+      "author": "Samantha Sharf",
+      "date": "21 April 2026",
+      "content": [
+        "The commercial real estate market, particularly the beleaguered office sector, continues to face massive refinancing challenges amidst an environment of stubbornly high interest rates and structurally lower occupancy levels due to hybrid work trends.",
+        "Billions of dollars in commercial mortgages originated during the low-interest-rate era are maturing this year. Property owners are finding themselves unable to secure new financing at viable rates, forcing many landlords to either inject substantial new equity, negotiate painful extensions, or simply hand the keys back to lenders.",
+        "Regional and mid-sized banks, which hold a disproportionately large portion of these commercial real estate loans, are aggressively increasing their loan-loss provisions in anticipation of higher default rates. This is constraining their ability to lend to other sectors of the economy.",
+        "While Class A office buildings with premium amenities and sustainable certifications are still attracting tenants, older Class B and C properties are experiencing plummeting valuations. Developers are increasingly exploring the costly and complex process of converting these obsolete office buildings into residential apartments.",
+        "Federal regulators are closely monitoring the situation, urging banks to work constructively with borrowers to avoid a chaotic wave of foreclosures. However, analysts believe that a significant repricing of commercial real estate assets is inevitable and necessary for the market to eventually clear and stabilize."
+      ]
     }
   ]
 }

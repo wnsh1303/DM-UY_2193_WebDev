@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Search FinanceDaily articles by keyword, filter by category, and sort by date.">
+    <title>Search — FinanceDaily</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="search">
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="logo-bar">
+            <a href="index.html" class="logo">FinanceDaily</a>
+            <a href="search.html" class="header-search-btn" aria-label="Search">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </a>
+        </div>
+        <!-- TradingView Ticker Tape Widget -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+                "symbols": [
+                    { "proName": "FOREXCOM:SPXUSD", "title": "S&P 500" },
+                    { "proName": "FOREXCOM:NSXUSD", "title": "NASDAQ" },
+                    { "proName": "BITSTAMP:BTCUSD", "title": "Bitcoin" },
+                    { "proName": "FX_IDC:EURUSD", "title": "EUR/USD" }
+                ],
+                "showSymbolLogo": true,
+                "isTransparent": true,
+                "displayMode": "regular",
+                "colorTheme": "light",
+                "locale": "en"
+            }
+            </script>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="stocks.html">STOCKS</a></li>
+                <li><a href="currencies.html">CURRENCIES</a></li>
+                <li><a href="cryptos.html">CRYPTOS</a></li>
+                <li><a href="economics.html">ECONOMICS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-bar-section">
+        <form class="search-form" id="search-form">
+            <input type="text" id="search-input" class="search-input" placeholder="Search FinanceDaily..." autofocus>
+            <button type="submit" class="search-submit-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                Search
+            </button>
+        </form>
+    </div>
+
+    <!-- Search Content -->
+    <div class="search-page-layout">
+        <!-- Results Area -->
+        <div class="search-results-area">
+            <div id="search-heading" class="search-heading"></div>
+            <div id="search-count" class="search-count"></div>
+
+            <!-- Sort -->
+            <div class="search-sort" id="search-sort" style="display:none;">
+                <span class="sort-label">Sort by</span>
+                <button class="sort-btn active" data-sort="newest">Newest</button>
+                <button class="sort-btn" data-sort="oldest">Oldest</button>
+            </div>
+
+            <!-- Results List -->
+            <div id="search-results" class="search-results-list"></div>
+        </div>
+
+        <!-- Filter Sidebar -->
+        <aside class="search-filter-sidebar" id="search-filter-sidebar">
+            <h3 class="filter-sidebar-title">Filter by</h3>
+
+            <div class="filter-group">
+                <h4 class="filter-group-title">CATEGORY</h4>
+                <label class="filter-option">
+                    <input type="radio" name="category" value="all" checked> All categories
+                </label>
+                <label class="filter-option">
+                    <input type="radio" name="category" value="stocks"> Stocks
+                </label>
+                <label class="filter-option">
+                    <input type="radio" name="category" value="currencies"> Currencies
+                </label>
+                <label class="filter-option">
+                    <input type="radio" name="category" value="cryptos"> Cryptos
+                </label>
+                <label class="filter-option">
+                    <input type="radio" name="category" value="economics"> Economics
+                </label>
+            </div>
+
+            <div class="filter-group">
+                <h4 class="filter-group-title">SOURCE</h4>
+                <div id="source-filters"></div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-logo">FinanceDaily</div>
+        <ul class="footer-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
