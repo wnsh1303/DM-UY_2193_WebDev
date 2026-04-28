@@ -2,7 +2,7 @@
   "featured": {
     "id": "featured",
     "category": "stocks",
-    "ticker": "none",
+    "ticker": "FOREXCOM:SPXUSD",
     "title": "Dow closes wild session up 200 points as oil reverses lower and Trump signals Iran war near an end",
     "description": "The S&P 500 made a comeback from earlier losses on Monday after President Donald Trump said the war against Iran could be reaching its end.",
     "image": "article_picture.webp",
@@ -307,7 +307,7 @@
     {
       "id": "cryptos-0",
       "category": "cryptos",
-      "ticker": "none",
+      "ticker": "BITSTAMP:BTCUSD",
       "title": "Bitcoin consolidates in high $70Ks as institutional inflows persist",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "CoinDesk",
@@ -324,7 +324,7 @@
     {
       "id": "cryptos-1",
       "category": "cryptos",
-      "ticker": "none",
+      "ticker": "BITSTAMP:ETHUSD",
       "title": "Ethereum Foundation continues treasury sales amid robust on-chain activity",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Crypto.news",
@@ -341,7 +341,7 @@
     {
       "id": "cryptos-2",
       "category": "cryptos",
-      "ticker": "none",
+      "ticker": "BITSTAMP:BTCUSD",
       "title": "Corporate treasuries increase Bitcoin holdings in Q1 2026",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "The Block",
@@ -375,7 +375,7 @@
     {
       "id": "cryptos-4",
       "category": "cryptos",
-      "ticker": "none",
+      "ticker": "COINBASE:SOLUSD",
       "title": "Solana network upgrades successfully deployed, reducing transaction failures",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Decrypt",
@@ -392,7 +392,7 @@
     {
       "id": "cryptos-5",
       "category": "cryptos",
-      "ticker": "none",
+      "ticker": "BITSTAMP:BTCUSD",
       "title": "Bitcoin mining difficulty hits new all-time high post-halving",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Bitcoin Magazine",
@@ -426,7 +426,7 @@
     {
       "id": "cryptos-7",
       "category": "cryptos",
-      "ticker": "none",
+      "ticker": "BITSTAMP:ETHUSD",
       "title": "Layer 2 scaling solutions process record number of Ethereum transactions",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Bankless",
