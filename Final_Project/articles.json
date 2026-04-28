@@ -2,6 +2,7 @@
   "featured": {
     "id": "featured",
     "category": "stocks",
+    "ticker": "none",
     "title": "Dow closes wild session up 200 points as oil reverses lower and Trump signals Iran war near an end",
     "description": "The S&P 500 made a comeback from earlier losses on Monday after President Donald Trump said the war against Iran could be reaching its end.",
     "image": "article_picture.webp",
@@ -236,6 +237,7 @@
     {
       "id": "currencies-4",
       "category": "currencies",
+      "ticker": "none",
       "title": "Central banks adopt 'wait and see' approach in a critical week for policy",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "Reuters",
@@ -305,6 +307,7 @@
     {
       "id": "cryptos-0",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Bitcoin consolidates in high $70Ks as institutional inflows persist",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "CoinDesk",
@@ -321,6 +324,7 @@
     {
       "id": "cryptos-1",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Ethereum Foundation continues treasury sales amid robust on-chain activity",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Crypto.news",
@@ -337,6 +341,7 @@
     {
       "id": "cryptos-2",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Corporate treasuries increase Bitcoin holdings in Q1 2026",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "The Block",
@@ -353,6 +358,7 @@
     {
       "id": "cryptos-3",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Regulatory clarity in the US spurs DeFi token rally",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "CoinTelegraph",
@@ -369,6 +375,7 @@
     {
       "id": "cryptos-4",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Solana network upgrades successfully deployed, reducing transaction failures",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Decrypt",
@@ -385,6 +392,7 @@
     {
       "id": "cryptos-5",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Bitcoin mining difficulty hits new all-time high post-halving",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Bitcoin Magazine",
@@ -401,6 +409,7 @@
     {
       "id": "cryptos-6",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Stablecoin market cap surpasses $200 billion milestone",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Blockworks",
@@ -417,6 +426,7 @@
     {
       "id": "cryptos-7",
       "category": "cryptos",
+      "ticker": "none",
       "title": "Layer 2 scaling solutions process record number of Ethereum transactions",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Cryptos",
       "source": "Bankless",
@@ -435,6 +445,7 @@
     {
       "id": "economics-0",
       "category": "economics",
+      "ticker": "none",
       "title": "UK inflation reaches 3.3% but wage growth shows signs of declining",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "Financial Times",
@@ -451,6 +462,7 @@
     {
       "id": "economics-1",
       "category": "economics",
+      "ticker": "none",
       "title": "Geopolitical tensions threaten to reignite global supply chain issues",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "Wall Street Journal",
@@ -467,6 +479,7 @@
     {
       "id": "economics-2",
       "category": "economics",
+      "ticker": "none",
       "title": "Federal Reserve expected to maintain 'higher for longer' stance",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "Bloomberg",
@@ -483,6 +496,7 @@
     {
       "id": "economics-3",
       "category": "economics",
+      "ticker": "none",
       "title": "China's economic recovery remains uneven despite targeted stimulus",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "South China Morning Post",
@@ -499,6 +513,7 @@
     {
       "id": "economics-4",
       "category": "economics",
+      "ticker": "none",
       "title": "Global energy transition investments hit record $2.1 trillion",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "Reuters",
@@ -515,6 +530,7 @@
     {
       "id": "economics-5",
       "category": "economics",
+      "ticker": "none",
       "title": "US consumer confidence dips amid rising gas prices and inflation fears",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "CNBC",
@@ -531,6 +547,7 @@
     {
       "id": "economics-6",
       "category": "economics",
+      "ticker": "none",
       "title": "Japan struggles with weak Yen impact on household purchasing power",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "Nikkei Asia",
@@ -547,6 +564,7 @@
     {
       "id": "economics-7",
       "category": "economics",
+      "ticker": "none",
       "title": "Commercial real estate sector faces ongoing refinancing hurdles",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Economics",
       "source": "Forbes",

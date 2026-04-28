@@ -476,7 +476,7 @@ function renderArticlePage(data) {
 
     var contentHTML = '';
     var chartHTML = '';
-    if (article.ticker) {
+    if (article.ticker && article.ticker !== 'none') {
         chartHTML =
             '<div class="article-chart-container">' +
                 '<div class="tradingview-widget-container" id="article-tv-chart">' +
@@ -489,7 +489,7 @@ function renderArticlePage(data) {
     var insertAfter = Math.min(2, Math.floor(article.content.length / 2));
     article.content.forEach(function (para, idx) {
         contentHTML += '<p>' + para + '</p>';
-        if (article.ticker && idx === insertAfter - 1) {
+        if (article.ticker && article.ticker !== 'none' && idx === insertAfter - 1) {
             contentHTML += chartHTML;
         }
     });
@@ -512,7 +512,7 @@ function renderArticlePage(data) {
         '<div class="article-content">' + contentHTML + '</div>';
 
     // Initialize TradingView Advanced Chart widget for stock articles
-    if (article.ticker) {
+    if (article.ticker && article.ticker !== 'none') {
         var tvContainer = document.getElementById('article-tv-chart');
         if (tvContainer) {
             var tvScript = document.createElement('script');
