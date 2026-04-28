@@ -686,12 +686,12 @@ main {
 
 .article-chart-container .tradingview-widget-container {
     width: 100%;
-    height: 1500px;
+    height: 500px;
 }
 
 .article-chart-container .tradingview-widget-container iframe {
     width: 100% !important;
-    height: 1500px !important;
+    height: 500px !important;
 }
 
 /* Load More Button */

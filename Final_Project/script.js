@@ -521,7 +521,7 @@ function renderArticlePage(data) {
             tvScript.async = true;
             tvScript.textContent = JSON.stringify({
                 "width": "100%",
-                "height": "1500",
+                "height": "500",
                 "symbol": article.ticker,
                 "interval": "D",
                 "timezone": "Etc/UTC",
