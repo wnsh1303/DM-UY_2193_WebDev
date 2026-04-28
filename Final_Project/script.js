@@ -117,55 +117,7 @@ function createCategoryCard(article) {
             '<h3 class="card-title">' + article.title + '</h3>' +
             '<p class="card-date">' + article.date + '</p>' +
         '</div>';
-
-    // Add TradingView mini chart widget for stocks with ticker
-    if (article.ticker) {
-        var chartWrapper = document.createElement('div');
-        chartWrapper.className = 'stock-chart-wrapper';
-
-        var widgetContainer = document.createElement('div');
-        widgetContainer.className = 'tradingview-widget-container stock-mini-chart';
-        widgetContainer.setAttribute('data-ticker', article.ticker);
-
-        var widgetInner = document.createElement('div');
-        widgetInner.className = 'tradingview-widget-container__widget';
-        widgetContainer.appendChild(widgetInner);
-
-        chartWrapper.appendChild(widgetContainer);
-        a.appendChild(chartWrapper);
-    }
-
     return a;
-}
-
-/* ===========================
-   TradingView Mini Chart Init
-   =========================== */
-function initStockMiniCharts() {
-    var containers = document.querySelectorAll('.stock-mini-chart');
-    containers.forEach(function (container) {
-        var ticker = container.getAttribute('data-ticker');
-        if (!ticker) return;
-
-        var script = document.createElement('script');
-        script.type = 'text/javascript';
-        script.src = 'https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js';
-        script.async = true;
-        script.textContent = JSON.stringify({
-            "symbol": ticker,
-            "width": "100%",
-            "height": "100%",
-            "locale": "en",
-            "dateRange": "1M",
-            "colorTheme": "light",
-            "isTransparent": true,
-            "autosize": true,
-            "largeChartUrl": "",
-            "noTimeScale": false,
-            "chartOnly": false
-        });
-        container.appendChild(script);
-    });
 }
 
 function createRelatedCard(article) {
@@ -497,20 +449,9 @@ function renderCategoryPage(data, category) {
     var loadBtn = document.createElement('button');
     loadBtn.className = 'load-more-btn';
     loadBtn.textContent = 'Load more';
-    loadBtn.onclick = function () {
-        loadMore(loadBtn);
-        // Initialize any newly revealed TradingView charts
-        if (category === 'stocks') {
-            setTimeout(initStockMiniCharts, 100);
-        }
-    };
+    loadBtn.onclick = function () { loadMore(loadBtn); };
     loadWrap.appendChild(loadBtn);
     container.appendChild(loadWrap);
-
-    // Initialize TradingView mini charts for stocks category
-    if (category === 'stocks') {
-        setTimeout(initStockMiniCharts, 100);
-    }
 }
 
 /* ===========================
@@ -538,6 +479,17 @@ function renderArticlePage(data) {
         contentHTML += '<p>' + para + '</p>';
     });
 
+    // Build TradingView chart HTML for stock articles
+    var chartHTML = '';
+    if (article.ticker) {
+        chartHTML =
+            '<div class="article-chart-container">' +
+                '<div class="tradingview-widget-container" id="article-tv-chart">' +
+                    '<div class="tradingview-widget-container__widget"></div>' +
+                '</div>' +
+            '</div>';
+    }
+
     articleBody.innerHTML =
         '<p class="article-category">' + (labels[article.category] || article.category) + '</p>' +
         '<h1 class="article-title">' + article.title + '</h1>' +
@@ -553,7 +505,31 @@ function renderArticlePage(data) {
                 '<a href="#" aria-label="Share">⎘</a>' +
             '</div>' +
         '</div>' +
+        chartHTML +
         '<div class="article-content">' + contentHTML + '</div>';
+
+    // Initialize TradingView Advanced Chart widget for stock articles
+    if (article.ticker) {
+        var tvContainer = document.getElementById('article-tv-chart');
+        if (tvContainer) {
+            var tvScript = document.createElement('script');
+            tvScript.type = 'text/javascript';
+            tvScript.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
+            tvScript.async = true;
+            tvScript.textContent = JSON.stringify({
+                "autosize": true,
+                "symbol": article.ticker,
+                "interval": "D",
+                "timezone": "Etc/UTC",
+                "theme": "light",
+                "style": "1",
+                "locale": "en",
+                "allow_symbol_change": false,
+                "support_host": "https://www.tradingview.com"
+            });
+            tvContainer.appendChild(tvScript);
+        }
+    }
 
     // Render related section
     var relatedGrid = document.querySelector('.related-grid');
