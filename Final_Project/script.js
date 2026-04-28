@@ -475,11 +475,6 @@ function renderArticlePage(data) {
     if (!articleBody) return;
 
     var contentHTML = '';
-    article.content.forEach(function (para) {
-        contentHTML += '<p>' + para + '</p>';
-    });
-
-    // Build TradingView chart HTML for stock articles
     var chartHTML = '';
     if (article.ticker) {
         chartHTML =
@@ -489,6 +484,15 @@ function renderArticlePage(data) {
                 '</div>' +
             '</div>';
     }
+
+    // Insert chart after the 2nd paragraph (middle of content)
+    var insertAfter = Math.min(2, Math.floor(article.content.length / 2));
+    article.content.forEach(function (para, idx) {
+        contentHTML += '<p>' + para + '</p>';
+        if (article.ticker && idx === insertAfter - 1) {
+            contentHTML += chartHTML;
+        }
+    });
 
     articleBody.innerHTML =
         '<p class="article-category">' + (labels[article.category] || article.category) + '</p>' +
@@ -505,7 +509,6 @@ function renderArticlePage(data) {
                 '<a href="#" aria-label="Share">⎘</a>' +
             '</div>' +
         '</div>' +
-        chartHTML +
         '<div class="article-content">' + contentHTML + '</div>';
 
     // Initialize TradingView Advanced Chart widget for stock articles
