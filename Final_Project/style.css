@@ -689,6 +689,11 @@ main {
     height: 1500px;
 }
 
+.article-chart-container .tradingview-widget-container iframe {
+    width: 100% !important;
+    height: 1500px !important;
+}
+
 /* Load More Button */
 .load-more-wrap {
     text-align: center;

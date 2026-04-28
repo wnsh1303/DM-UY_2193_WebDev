@@ -520,7 +520,8 @@ function renderArticlePage(data) {
             tvScript.src = 'https://s3.tradingview.com/external-embedding/embed-widget-advanced-chart.js';
             tvScript.async = true;
             tvScript.textContent = JSON.stringify({
-                "autosize": true,
+                "width": "100%",
+                "height": "1500",
                 "symbol": article.ticker,
                 "interval": "D",
                 "timezone": "Etc/UTC",
