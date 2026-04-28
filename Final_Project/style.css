@@ -694,6 +694,25 @@ main {
     height: 500px !important;
 }
 
+/* Chart.js Economics Chart */
+.chartjs-container {
+    padding: 24px;
+    background-color: #fff;
+}
+
+.chartjs-container canvas {
+    width: 100% !important;
+    height: 400px !important;
+}
+
+.chart-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
 /* Load More Button */
 .load-more-wrap {
     text-align: center;

@@ -457,7 +457,16 @@
         "This mixed bag of data has led to significant uncertainty regarding future interest rate policies. Traders are actively debating whether the central bank will prioritize tackling the stubbornly high headline inflation figure or begin easing rates to prevent a sharper, unnecessary economic slowdown.",
         "Business leaders are urging the Bank of England to communicate a clear path forward, noting that the prolonged period of high borrowing costs is severely hindering capital investment and business expansion plans. Consumer confidence also remains fragile amid the elevated cost of living.",
         "The upcoming inflation print next month will be critical. If the recent uptick proves to be a temporary blip and wage growth continues to moderate, the case for a late-summer rate cut will strengthen significantly, potentially providing relief to millions of mortgage holders."
-      ]
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "UK CPI Inflation vs Wage Growth (%)",
+        "labels": ["Oct 25", "Nov 25", "Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26"],
+        "datasets": [
+          { "label": "CPI Inflation", "data": [2.3, 2.6, 2.5, 3.0, 2.8, 3.1, 3.3], "borderColor": "#e74c3c", "backgroundColor": "rgba(231,76,60,0.1)" },
+          { "label": "Wage Growth", "data": [5.8, 5.5, 5.2, 4.9, 4.6, 4.3, 3.9], "borderColor": "#3498db", "backgroundColor": "rgba(52,152,219,0.1)" }
+        ]
+      }
     },
     {
       "id": "economics-1",
@@ -474,7 +483,15 @@
         "Manufacturers across Europe and North America are increasingly shifting from efficient 'just-in-time' inventory models back to holding larger, costly stockpiles to mitigate potential sudden disruptions. This shift requires significant working capital and reduces overall corporate efficiency.",
         "The situation is further complicated by severe drought conditions limiting transit through the Panama Canal, creating a perfect storm of logistical challenges. Retailers are already warning of potential shortages of certain consumer goods and electronics heading into the crucial back-to-school shopping season.",
         "Governments are facing mounting pressure to secure critical maritime trade routes. However, analysts suggest that until a comprehensive geopolitical resolution is reached, supply chain volatility will remain a persistent headwind for the global economic recovery."
-      ]
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "Global Container Shipping Index ($/40ft)",
+        "labels": ["Oct 25", "Nov 25", "Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26"],
+        "datasets": [
+          { "label": "Shipping Cost", "data": [1450, 1520, 1780, 2100, 2450, 2680, 2950], "borderColor": "#e67e22", "backgroundColor": "rgba(230,126,34,0.1)" }
+        ]
+      }
     },
     {
       "id": "economics-2",
@@ -491,7 +508,15 @@
         "Investors are carefully analyzing every piece of Fed speak for any hints of a timeline for policy normalization later in the year. The market's expectation for rate cuts has been drastically revised, shifting from projections of multiple cuts starting in the spring to perhaps only one or two cuts occurring late in the winter.",
         "This prolonged period of high interest rates is beginning to show cracks in certain segments of the economy, particularly in commercial real estate and among lower-income consumers relying heavily on credit cards. However, aggregate economic growth remains surprisingly strong.",
         "Global markets remain highly sensitive to the Fed's trajectory, as the strong US Dollar and high treasury yields exert pressure on emerging market currencies and complicate the monetary policy decisions of other major central banks around the world."
-      ]
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "Federal Funds Rate (%)",
+        "labels": ["Jan 24", "May 24", "Sep 24", "Jan 25", "May 25", "Sep 25", "Jan 26", "Apr 26"],
+        "datasets": [
+          { "label": "Fed Funds Rate", "data": [5.50, 5.50, 5.50, 5.50, 5.25, 5.25, 5.25, 5.25], "borderColor": "#2c3e50", "backgroundColor": "rgba(44,62,80,0.1)", "stepped": true }
+        ]
+      }
     },
     {
       "id": "economics-3",
@@ -508,7 +533,17 @@
         "Global commodity markets remain highly sensitive to Chinese demand indicators, particularly for industrial metals like copper and iron ore. While demand for materials used in electric vehicles and solar panels is booming, traditional construction materials remain in a slump.",
         "Youth unemployment remains a persistent concern, prompting the government to launch initiatives encouraging hiring in state-owned enterprises and the tech sector. Restoring confidence among young professionals and the broader middle class is seen as crucial for transitioning to a consumption-driven economic model.",
         "International investors remain cautious regarding Chinese equities, balancing the attractive valuations against geopolitical risks and the unpredictable nature of regulatory interventions. The success of China's economic transition will be a defining factor in global growth forecasts for the remainder of the decade."
-      ]
+      ],
+      "chartData": {
+        "type": "bar",
+        "title": "China GDP Growth by Sector (% YoY)",
+        "labels": ["Q1 2025", "Q2 2025", "Q3 2025", "Q4 2025", "Q1 2026"],
+        "datasets": [
+          { "label": "Manufacturing", "data": [5.8, 6.2, 6.5, 6.1, 6.4], "backgroundColor": "rgba(231,76,60,0.7)" },
+          { "label": "Services", "data": [4.2, 4.0, 3.8, 3.5, 3.6], "backgroundColor": "rgba(52,152,219,0.7)" },
+          { "label": "Real Estate", "data": [-2.1, -1.8, -2.5, -3.0, -2.8], "backgroundColor": "rgba(149,165,166,0.7)" }
+        ]
+      }
     },
     {
       "id": "economics-4",
@@ -525,7 +560,17 @@
         "Despite the record spending levels, climate experts and economists warn that the current pace of investment is still fundamentally insufficient to meet the ambitious emission reduction targets outlined in the Paris Agreement. They estimate that annual investments must more than double to avert the most severe impacts of climate change.",
         "The report highlighted a growing divide between advanced economies, which are rapidly deploying clean technologies, and developing nations, which struggle to attract affordable financing for green projects. International development banks are under increasing pressure to de-risk investments in emerging markets.",
         "Furthermore, supply chain bottlenecks for critical minerals, such as lithium, copper, and cobalt, threaten to constrain the pace of the energy transition. Policymakers are increasingly focused on securing domestic supply chains and investing in advanced recycling technologies to mitigate these strategic vulnerabilities."
-      ]
+      ],
+      "chartData": {
+        "type": "bar",
+        "title": "Global Clean Energy Investment ($B)",
+        "labels": ["2020", "2021", "2022", "2023", "2024", "2025"],
+        "datasets": [
+          { "label": "Solar & Wind", "data": [380, 440, 530, 620, 750, 880], "backgroundColor": "rgba(46,204,113,0.7)" },
+          { "label": "EVs & Storage", "data": [150, 220, 310, 420, 530, 680], "backgroundColor": "rgba(52,152,219,0.7)" },
+          { "label": "Other Clean", "data": [120, 140, 180, 260, 380, 540], "backgroundColor": "rgba(155,89,182,0.7)" }
+        ]
+      }
     },
     {
       "id": "economics-5",
@@ -542,7 +587,15 @@
         "Retailers are bracing for a potential slowdown in discretionary spending over the critical summer shopping and travel months. Major retail chains have already reported a noticeable shift in consumer behavior, with shoppers increasingly trading down to store brands and delaying large-ticket purchases.",
         "The rising cost of borrowing, heavily influenced by the Federal Reserve's sustained high interest rates, is also weighing heavily on sentiment. High mortgage rates have effectively frozen the housing market, while auto loan and credit card delinquencies are beginning to trend upward from historic lows.",
         "Economists warn that if consumer sentiment continues to deteriorate, it could become a self-fulfilling prophecy, leading to a broader contraction in consumer spending, which accounts for over two-thirds of US economic activity. Policymakers are hoping that a stabilization in energy prices will help reverse the negative trend in the coming months."
-      ]
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "US Consumer Confidence Index",
+        "labels": ["Oct 25", "Nov 25", "Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26"],
+        "datasets": [
+          { "label": "Consumer Confidence", "data": [108.5, 105.2, 102.8, 100.4, 98.1, 95.6, 91.3], "borderColor": "#27ae60", "backgroundColor": "rgba(39,174,96,0.1)" }
+        ]
+      }
     },
     {
       "id": "economics-6",
@@ -559,7 +612,16 @@
         "Pressure is mounting intensely on the Bank of Japan and the central government to intervene more forcefully in currency markets to stem the Yen's rapid decline. However, unilateral intervention is often viewed as a temporary band-aid rather than a structural fix, so long as the massive interest rate gap with the US remains.",
         "The rising cost of living has become a major political issue, with opposition parties criticizing the ruling government's handling of the economy. In response, the government has rolled out a series of subsidies for gasoline and utility bills to shield the most vulnerable households from the price shocks.",
         "Labor unions achieved the largest wage hikes in decades during the recent spring wage negotiations, but inflation is still outpacing real wage growth for many workers. Economists argue that sustained, broad-based wage increases are the only long-term solution to pull Japan out of its decades-long deflationary mindset."
-      ]
+      ],
+      "chartData": {
+        "type": "line",
+        "title": "Japan: Inflation vs Real Wage Growth (%)",
+        "labels": ["Oct 25", "Nov 25", "Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26"],
+        "datasets": [
+          { "label": "CPI Inflation", "data": [2.8, 2.9, 3.1, 3.4, 3.2, 3.5, 3.6], "borderColor": "#e74c3c", "backgroundColor": "rgba(231,76,60,0.1)" },
+          { "label": "Real Wage Growth", "data": [-1.2, -0.8, -1.0, -1.5, -1.3, -1.1, -0.9], "borderColor": "#3498db", "backgroundColor": "rgba(52,152,219,0.1)" }
+        ]
+      }
     },
     {
       "id": "economics-7",
@@ -576,7 +638,17 @@
         "Regional and mid-sized banks, which hold a disproportionately large portion of these commercial real estate loans, are aggressively increasing their loan-loss provisions in anticipation of higher default rates. This is constraining their ability to lend to other sectors of the economy.",
         "While Class A office buildings with premium amenities and sustainable certifications are still attracting tenants, older Class B and C properties are experiencing plummeting valuations. Developers are increasingly exploring the costly and complex process of converting these obsolete office buildings into residential apartments.",
         "Federal regulators are closely monitoring the situation, urging banks to work constructively with borrowers to avoid a chaotic wave of foreclosures. However, analysts believe that a significant repricing of commercial real estate assets is inevitable and necessary for the market to eventually clear and stabilize."
-      ]
+      ],
+      "chartData": {
+        "type": "bar",
+        "title": "US CRE Loan Maturities ($B)",
+        "labels": ["2024", "2025", "2026", "2027", "2028"],
+        "datasets": [
+          { "label": "Office", "data": [85, 110, 145, 95, 70], "backgroundColor": "rgba(231,76,60,0.7)" },
+          { "label": "Retail", "data": [55, 65, 80, 60, 45], "backgroundColor": "rgba(52,152,219,0.7)" },
+          { "label": "Multifamily", "data": [70, 90, 105, 85, 65], "backgroundColor": "rgba(46,204,113,0.7)" }
+        ]
+      }
     }
   ]
 }

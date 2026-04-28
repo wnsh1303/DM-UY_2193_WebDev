@@ -476,6 +476,8 @@ function renderArticlePage(data) {
 
     var contentHTML = '';
     var chartHTML = '';
+
+    // TradingView chart for stocks/currencies/cryptos
     if (article.ticker && article.ticker !== 'none') {
         chartHTML =
             '<div class="article-chart-container">' +
@@ -485,11 +487,20 @@ function renderArticlePage(data) {
             '</div>';
     }
 
+    // Chart.js chart for economics articles
+    if (article.chartData) {
+        chartHTML =
+            '<div class="article-chart-container chartjs-container">' +
+                '<h3 class="chart-title">' + article.chartData.title + '</h3>' +
+                '<canvas id="economics-chart"></canvas>' +
+            '</div>';
+    }
+
     // Insert chart after the 2nd paragraph (middle of content)
     var insertAfter = Math.min(2, Math.floor(article.content.length / 2));
     article.content.forEach(function (para, idx) {
         contentHTML += '<p>' + para + '</p>';
-        if (article.ticker && article.ticker !== 'none' && idx === insertAfter - 1) {
+        if (chartHTML && idx === insertAfter - 1) {
             contentHTML += chartHTML;
         }
     });
@@ -511,8 +522,8 @@ function renderArticlePage(data) {
         '</div>' +
         '<div class="article-content">' + contentHTML + '</div>';
 
-    // Initialize TradingView Advanced Chart widget for stock articles
-    if (article.ticker && article.ticker !== 'none') {
+    // Initialize TradingView Advanced Chart widget for stock/currency/crypto articles
+    if (article.ticker && article.ticker !== 'none' && !article.chartData) {
         var tvContainer = document.getElementById('article-tv-chart');
         if (tvContainer) {
             var tvScript = document.createElement('script');
@@ -532,6 +543,62 @@ function renderArticlePage(data) {
                 "support_host": "https://www.tradingview.com"
             });
             tvContainer.appendChild(tvScript);
+        }
+    }
+
+    // Initialize Chart.js chart for economics articles
+    if (article.chartData && typeof Chart !== 'undefined') {
+        var canvas = document.getElementById('economics-chart');
+        if (canvas) {
+            var cd = article.chartData;
+            var datasets = cd.datasets.map(function (ds) {
+                var config = {
+                    label: ds.label,
+                    data: ds.data,
+                    backgroundColor: ds.backgroundColor,
+                    borderWidth: 2,
+                    tension: 0.3
+                };
+                if (ds.borderColor) {
+                    config.borderColor = ds.borderColor;
+                    config.fill = true;
+                    config.pointRadius = 4;
+                    config.pointHoverRadius = 6;
+                }
+                if (ds.stepped) {
+                    config.stepped = true;
+                    config.tension = 0;
+                }
+                return config;
+            });
+            new Chart(canvas, {
+                type: cd.type,
+                data: {
+                    labels: cd.labels,
+                    datasets: datasets
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: { padding: 20, usePointStyle: true, font: { size: 13 } }
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: cd.type === 'bar',
+                            grid: { color: 'rgba(0,0,0,0.06)' },
+                            ticks: { font: { size: 12 } }
+                        },
+                        x: {
+                            grid: { display: false },
+                            ticks: { font: { size: 12 } }
+                        }
+                    }
+                }
+            });
         }
     }
 
