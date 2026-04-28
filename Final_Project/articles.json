@@ -168,6 +168,7 @@
     {
       "id": "currencies-0",
       "category": "currencies",
+      "ticker": "FX:USDJPY",
       "title": "USD/JPY hovers near 160.00 as markets await Bank of Japan rate decision",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "Investing.com",
@@ -184,6 +185,7 @@
     {
       "id": "currencies-1",
       "category": "currencies",
+      "ticker": "FX:EURUSD",
       "title": "Euro faces pressure as higher energy costs act as a 'tax' on growth",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "OANDA",
@@ -200,6 +202,7 @@
     {
       "id": "currencies-2",
       "category": "currencies",
+      "ticker": "TVC:DXY",
       "title": "US Dollar maintains safe-haven supremacy amidst geopolitical fog",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "FX Leaders",
@@ -216,6 +219,7 @@
     {
       "id": "currencies-3",
       "category": "currencies",
+      "ticker": "FX:GBPUSD",
       "title": "British Pound volatile as UK inflation hits 3.3% but wage growth slows",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "Financial Times",
@@ -248,6 +252,7 @@
     {
       "id": "currencies-5",
       "category": "currencies",
+      "ticker": "FX:EURCHF",
       "title": "Swiss Franc gains ground as European investors seek regional safety",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "Bloomberg",
@@ -264,6 +269,7 @@
     {
       "id": "currencies-6",
       "category": "currencies",
+      "ticker": "FX:AUDUSD",
       "title": "Australian Dollar struggles amid mixed commodity signals and China data",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "Sydney Morning Herald",
@@ -280,6 +286,7 @@
     {
       "id": "currencies-7",
       "category": "currencies",
+      "ticker": "FX:USDCAD",
       "title": "Canadian Dollar boosted by elevated crude oil prices",
       "image": "https://placehold.co/280x180/eef2f5/333?text=Currencies",
       "source": "Globe and Mail",
