@@ -4,7 +4,7 @@ A minimal, responsive financial news website built as the final project for **DM
 
 ## Live Demo
 
-**[https://wnsh1303.github.io/DM-UY_2193_WebDev/FINAL/](https://wnsh1303.github.io/DM-UY_2193_WebDev/FINAL/)**
+**[https://wnsh1303.github.io/DM-UY_2193_WebDev/](https://wnsh1303.github.io/DM-UY_2193_WebDev/)**
 
 Hosted on GitHub Pages.
 
