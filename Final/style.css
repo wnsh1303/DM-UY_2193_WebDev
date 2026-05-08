@@ -289,7 +289,7 @@ img {
 /* Filter Sidebar */
 .search-filter-sidebar {
     flex: 0 0 240px;
-    background-color: #f9f7f4;
+    background-color: #f7f7f7;
     padding: 24px;
     border-radius: 4px;
 }
@@ -314,7 +314,7 @@ img {
     color: #333;
     margin-bottom: 12px;
     padding-bottom: 8px;
-    border-bottom: 1px solid #e0ddd8;
+    border-bottom: 1px solid #ddd;
 }
 
 .filter-option {
@@ -568,22 +568,10 @@ main {
     font-family: Georgia, 'Times New Roman', serif;
 }
 
-.footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-    flex-wrap: wrap;
-}
-
-.footer-links a {
+.footer-copyright {
     font-size: 13px;
     color: #666;
     font-family: Arial, Helvetica, sans-serif;
-    transition: color 0.2s;
-}
-
-.footer-links a:hover {
-    color: #111;
 }
 
 /* ===========================
@@ -817,28 +805,6 @@ main {
 .article-author {
     font-weight: bold;
     color: #333;
-}
-
-.article-social {
-    display: flex;
-    gap: 14px;
-}
-
-.article-social a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    font-size: 14px;
-    color: #555;
-    transition: background-color 0.2s;
-}
-
-.article-social a:hover {
-    background-color: #eee;
 }
 
 /* Article Content */

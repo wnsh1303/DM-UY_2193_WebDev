@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FinanceDaily — Financial News</title>
+    <meta name="description" content="Latest stock market news and analysis.">
+    <title>Stocks — FinanceDaily</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body data-page="home">
+<body data-page="category">
 
     <!-- Header -->
     <header class="site-header">
@@ -37,8 +38,8 @@
         </div>
         <nav class="main-nav">
             <ul>
-                <li><a href="index.html" class="active">HOME</a></li>
-                <li><a href="stocks.html">STOCKS</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="stocks.html" class="active">STOCKS</a></li>
                 <li><a href="currencies.html">CURRENCIES</a></li>
                 <li><a href="cryptos.html">CRYPTOS</a></li>
                 <li><a href="economics.html">ECONOMICS</a></li>
@@ -47,20 +48,15 @@
     </header>
 
     <!-- Main Content (dynamically rendered from articles.json) -->
-    <main id="home-content">
+    <main class="category-page">
+        <div class="category-content" data-category="stocks">
+        </div>
     </main>
-
 
     <!-- Footer -->
     <footer class="site-footer">
         <div class="footer-logo">FinanceDaily</div>
-        <ul class="footer-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Authors</a></li>
-            <li><a href="#">Archive</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Cookie Policy</a></li>
-        </ul>
+        <p class="footer-copyright">&copy; 2026 FinanceDaily. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>

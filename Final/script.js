@@ -210,8 +210,13 @@ function renderSearchPage(data) {
     });
     sources.sort();
 
-    // Build source checkboxes
+    // Build source checkboxes (with All toggle on top)
     if (sourceFiltersEl) {
+        var allLabel = document.createElement('label');
+        allLabel.className = 'filter-option';
+        allLabel.innerHTML = '<input type="checkbox" id="source-all" checked> All sources';
+        sourceFiltersEl.appendChild(allLabel);
+
         sources.forEach(function (src) {
             var label = document.createElement('label');
             label.className = 'filter-option';
@@ -274,7 +279,16 @@ function renderSearchPage(data) {
 
     // Source filter
     if (sourceFiltersEl) {
-        sourceFiltersEl.addEventListener('change', function () {
+        sourceFiltersEl.addEventListener('change', function (e) {
+            var allCb = document.getElementById('source-all');
+            var sourceCbs = sourceFiltersEl.querySelectorAll('input[name="source"]');
+            if (e.target === allCb) {
+                sourceCbs.forEach(function (cb) { cb.checked = allCb.checked; });
+            } else if (e.target && e.target.name === 'source') {
+                var allChecked = true;
+                sourceCbs.forEach(function (cb) { if (!cb.checked) allChecked = false; });
+                if (allCb) allCb.checked = allChecked;
+            }
             performSearch();
         });
     }
@@ -477,6 +491,11 @@ function renderArticlePage(data) {
     var contentHTML = '';
     var chartHTML = '';
 
+    // Article hero image at the top of the body
+    if (article.image) {
+        contentHTML += '<img src="' + article.image + '" alt="' + article.title + '">';
+    }
+
     // TradingView chart for stocks/currencies/cryptos
     if (article.ticker && article.ticker !== 'none') {
         chartHTML =
@@ -512,12 +531,6 @@ function renderArticlePage(data) {
             '<div class="article-meta-left">' +
                 '<span class="article-author">' + article.author + '</span>' +
                 '<span class="article-date">' + article.date + '</span>' +
-            '</div>' +
-            '<div class="article-social">' +
-                '<a href="#" aria-label="Twitter">&#x1D54F;</a>' +
-                '<a href="#" aria-label="Facebook">f</a>' +
-                '<a href="#" aria-label="Email">✉</a>' +
-                '<a href="#" aria-label="Share">⎘</a>' +
             '</div>' +
         '</div>' +
         '<div class="article-content">' + contentHTML + '</div>';

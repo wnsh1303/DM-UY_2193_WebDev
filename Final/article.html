@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currencies — FinanceDaily</title>
+    <title>Article — FinanceDaily</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body data-page="category">
+<body data-page="article">
 
     <!-- Header -->
     <header class="site-header">
@@ -39,31 +39,32 @@
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="stocks.html">STOCKS</a></li>
-                <li><a href="currencies.html" class="active">CURRENCIES</a></li>
+                <li><a href="currencies.html">CURRENCIES</a></li>
                 <li><a href="cryptos.html">CRYPTOS</a></li>
                 <li><a href="economics.html">ECONOMICS</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content (dynamically rendered from articles.json) -->
-    <main class="category-page">
-        <div class="category-content" data-category="currencies">
-        </div>
+    <!-- Article (dynamically rendered from articles.json) -->
+    <main class="article-page">
+        <article class="article-body">
+        </article>
+
+        <section class="related-section">
+            <h2 class="related-title">Related</h2>
+            <div class="related-grid">
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer class="site-footer">
         <div class="footer-logo">FinanceDaily</div>
-        <ul class="footer-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Authors</a></li>
-            <li><a href="#">Archive</a></li>
-            <li><a href="#">Terms and Conditions</a></li>
-            <li><a href="#">Cookie Policy</a></li>
-        </ul>
+        <p class="footer-copyright">&copy; 2026 FinanceDaily. All rights reserved.</p>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
     <script src="script.js"></script>
 
 </body>
